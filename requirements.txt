@@ -1,0 +1,8 @@
+youtube-transcript-api==0.6.2
+yt-dlp
+moviepy
+pdf2image
+opencv-python-headless
+imagehash==4.3.1
+Pillow
+

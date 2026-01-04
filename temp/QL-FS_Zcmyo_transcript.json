@@ -1,0 +1,5407 @@
+[
+  {
+    "text": "okay thank you um okay so I will first",
+    "start": 0.359,
+    "duration": 5.121
+  },
+  {
+    "text": "start with some introduction and then",
+    "start": 3.32,
+    "duration": 5.359
+  },
+  {
+    "text": "we'll get the actual content um of this",
+    "start": 5.48,
+    "duration": 5.52
+  },
+  {
+    "text": "class",
+    "start": 8.679,
+    "duration": 2.321
+  },
+  {
+    "text": "started okay so first uh so my name is",
+    "start": 11.759,
+    "duration": 6.081
+  },
+  {
+    "text": "dong I'm a professor in computer science",
+    "start": 15.16,
+    "duration": 4.959
+  },
+  {
+    "text": "here at y Berkley and also a co-director",
+    "start": 17.84,
+    "duration": 4.56
+  },
+  {
+    "text": "of a campus wise Center called the",
+    "start": 20.119,
+    "duration": 4.92
+  },
+  {
+    "text": "center on responsible decentralized",
+    "start": 22.4,
+    "duration": 5.199
+  },
+  {
+    "text": "intelligence uh so I'm the instructor",
+    "start": 25.039,
+    "duration": 6.04
+  },
+  {
+    "text": "for this class and also we have uh guest",
+    "start": 27.599,
+    "duration": 5.201
+  },
+  {
+    "text": "co-instructor",
+    "start": 31.079,
+    "duration": 5.281
+  },
+  {
+    "text": "s from Google who is also alarm she my",
+    "start": 32.8,
+    "duration": 5.96
+  },
+  {
+    "text": "former student here teaching his class",
+    "start": 36.36,
+    "duration": 6.8
+  },
+  {
+    "text": "together and also we have our great Alex",
+    "start": 38.76,
+    "duration": 8.279
+  },
+  {
+    "text": "and cun and also we have our great reers",
+    "start": 43.16,
+    "duration": 6.68
+  },
+  {
+    "text": "Tara uh and",
+    "start": 47.039,
+    "duration": 6.281
+  },
+  {
+    "text": "as um okay uh so this is the teaching",
+    "start": 49.84,
+    "duration": 6.32
+  },
+  {
+    "text": "staff uh who will be working together",
+    "start": 53.32,
+    "duration": 6.68
+  },
+  {
+    "text": "with you uh this semester",
+    "start": 56.16,
+    "duration": 3.84
+  },
+  {
+    "text": "okay great so everyone's here uh",
+    "start": 60.199,
+    "duration": 4.92
+  },
+  {
+    "text": "everyone has been seeing the",
+    "start": 62.359,
+    "duration": 6.361
+  },
+  {
+    "text": "exciting uh growth of large language",
+    "start": 65.119,
+    "duration": 7.281
+  },
+  {
+    "text": "models uh the speed of advancement is",
+    "start": 68.72,
+    "duration": 5.84
+  },
+  {
+    "text": "just Adon",
+    "start": 72.4,
+    "duration": 4.16
+  },
+  {
+    "text": "astonishing uh however these large",
+    "start": 74.56,
+    "duration": 4.68
+  },
+  {
+    "text": "language models they operate in a fairly",
+    "start": 76.56,
+    "duration": 5.519
+  },
+  {
+    "text": "simple manner they take tax input and",
+    "start": 79.24,
+    "duration": 6.559
+  },
+  {
+    "text": "produce tax output so what we will cover",
+    "start": 82.079,
+    "duration": 6.281
+  },
+  {
+    "text": "in this semester in this class is the",
+    "start": 85.799,
+    "duration": 5.6
+  },
+  {
+    "text": "next Frontier large language model",
+    "start": 88.36,
+    "duration": 6.64
+  },
+  {
+    "text": "agents so instead of just taking tax uh",
+    "start": 91.399,
+    "duration": 6.161
+  },
+  {
+    "text": "as input and produce tax as output here",
+    "start": 95.0,
+    "duration": 5.799
+  },
+  {
+    "text": "we use a large Lang model as the key",
+    "start": 97.56,
+    "duration": 6.519
+  },
+  {
+    "text": "brain for reasoning and planning for the",
+    "start": 100.799,
+    "duration": 6.32
+  },
+  {
+    "text": "agents and enable the agents to interact",
+    "start": 104.079,
+    "duration": 7.0
+  },
+  {
+    "text": "with external environments observe uh uh",
+    "start": 107.119,
+    "duration": 6.921
+  },
+  {
+    "text": "the environments and take actions in the",
+    "start": 111.079,
+    "duration": 6.4
+  },
+  {
+    "text": "environments and the Agents will uh be",
+    "start": 114.04,
+    "duration": 6.48
+  },
+  {
+    "text": "using um external tools and also",
+    "start": 117.479,
+    "duration": 5.841
+  },
+  {
+    "text": "external database and knowledge base uh",
+    "start": 120.52,
+    "duration": 6.599
+  },
+  {
+    "text": "and so on uh for retrieval uh to help uh",
+    "start": 123.32,
+    "duration": 7.719
+  },
+  {
+    "text": "the agents to perform these",
+    "start": 127.119,
+    "duration": 3.92
+  },
+  {
+    "text": "tasks and the reach capabilities of um",
+    "start": 132.0,
+    "duration": 7.64
+  },
+  {
+    "text": "these large ener bottles makes these LM",
+    "start": 136.879,
+    "duration": 7.961
+  },
+  {
+    "text": "agents very flexible uh and they can",
+    "start": 139.64,
+    "duration": 8.64
+  },
+  {
+    "text": "easily operate in diverse environments",
+    "start": 144.84,
+    "duration": 8.039
+  },
+  {
+    "text": "without uh much uh particular training",
+    "start": 148.28,
+    "duration": 8.92
+  },
+  {
+    "text": "and these uh our agents they can uh",
+    "start": 152.879,
+    "duration": 6.44
+  },
+  {
+    "text": "interact with different types of",
+    "start": 157.2,
+    "duration": 5.08
+  },
+  {
+    "text": "environments uh including for example",
+    "start": 159.319,
+    "duration": 7.401
+  },
+  {
+    "text": "suring the web uh through different apis",
+    "start": 162.28,
+    "duration": 8.28
+  },
+  {
+    "text": "online and they can also be embodied",
+    "start": 166.72,
+    "duration": 6.28
+  },
+  {
+    "text": "even in a robot and operating in a",
+    "start": 170.56,
+    "duration": 3.759
+  },
+  {
+    "text": "physical",
+    "start": 173.0,
+    "duration": 4.68
+  },
+  {
+    "text": "world and they can inter sense the",
+    "start": 174.319,
+    "duration": 6.041
+  },
+  {
+    "text": "environments through different types uh",
+    "start": 177.68,
+    "duration": 5.96
+  },
+  {
+    "text": "of inputs uh even in the multi model",
+    "start": 180.36,
+    "duration": 6.76
+  },
+  {
+    "text": "setting even including very sensory uh",
+    "start": 183.64,
+    "duration": 6.72
+  },
+  {
+    "text": "inputs and taking actions in these",
+    "start": 187.12,
+    "duration": 6.36
+  },
+  {
+    "text": "diverse uh environments and through this",
+    "start": 190.36,
+    "duration": 6.159
+  },
+  {
+    "text": "interaction with the complex and diverse",
+    "start": 193.48,
+    "duration": 6.72
+  },
+  {
+    "text": "environments uh they can uh update their",
+    "start": 196.519,
+    "duration": 7.321
+  },
+  {
+    "text": "memory they can learn to do to use they",
+    "start": 200.2,
+    "duration": 6.959
+  },
+  {
+    "text": "can interact with humans and uh they",
+    "start": 203.84,
+    "duration": 5.959
+  },
+  {
+    "text": "obtain grounding through this uh uh",
+    "start": 207.159,
+    "duration": 5.481
+  },
+  {
+    "text": "interactions as",
+    "start": 209.799,
+    "duration": 2.841
+  },
+  {
+    "text": "well and these agents not only just",
+    "start": 212.84,
+    "duration": 4.959
+  },
+  {
+    "text": "interact with the environments they can",
+    "start": 216.2,
+    "duration": 4.119
+  },
+  {
+    "text": "interact with other agents through",
+    "start": 217.799,
+    "duration": 4.64
+  },
+  {
+    "text": "multi-agent uh interactions and",
+    "start": 220.319,
+    "duration": 5.2
+  },
+  {
+    "text": "collaboration including humans as well",
+    "start": 222.439,
+    "duration": 6.241
+  },
+  {
+    "text": "and this multi-agent uh collaboration",
+    "start": 225.519,
+    "duration": 6.28
+  },
+  {
+    "text": "can help agents together to solve even",
+    "start": 228.68,
+    "duration": 6.0
+  },
+  {
+    "text": "more complex",
+    "start": 231.799,
+    "duration": 2.881
+  },
+  {
+    "text": "tasks so why is our agent the next front",
+    "start": 235.2,
+    "duration": 6.879
+  },
+  {
+    "text": "here why do we need to empower ours with",
+    "start": 238.959,
+    "duration": 5.601
+  },
+  {
+    "text": "the agent framework for a number of",
+    "start": 242.079,
+    "duration": 5.481
+  },
+  {
+    "text": "reasons solving real real world Tas is",
+    "start": 244.56,
+    "duration": 6.039
+  },
+  {
+    "text": "never just uh in one goal with tax",
+    "start": 247.56,
+    "duration": 5.319
+  },
+  {
+    "text": "inputs produce tax outputs often times",
+    "start": 250.599,
+    "duration": 5.92
+  },
+  {
+    "text": "it involves a trial error process and",
+    "start": 252.879,
+    "duration": 5.48
+  },
+  {
+    "text": "leveraging external tools and the",
+    "start": 256.519,
+    "duration": 4.641
+  },
+  {
+    "text": "retrieval from external knowledge can",
+    "start": 258.359,
+    "duration": 5.161
+  },
+  {
+    "text": "help expand lm's",
+    "start": 261.16,
+    "duration": 4.479
+  },
+  {
+    "text": "capabilities and more",
+    "start": 263.52,
+    "duration": 6.64
+  },
+  {
+    "text": "importantly uh this Dynamic uh agents uh",
+    "start": 265.639,
+    "duration": 7.801
+  },
+  {
+    "text": "agentic flow uh this agent workflow can",
+    "start": 270.16,
+    "duration": 7.0
+  },
+  {
+    "text": "facilitate solving complex tasks through",
+    "start": 273.44,
+    "duration": 6.56
+  },
+  {
+    "text": "enabling task decomposition allocation",
+    "start": 277.16,
+    "duration": 6.28
+  },
+  {
+    "text": "of self tasks to specialized modules",
+    "start": 280.0,
+    "duration": 5.639
+  },
+  {
+    "text": "division of labor for project",
+    "start": 283.44,
+    "duration": 4.4
+  },
+  {
+    "text": "collaboration and throughout the course",
+    "start": 285.639,
+    "duration": 5.321
+  },
+  {
+    "text": "we also see that multi-agent generation",
+    "start": 287.84,
+    "duration": 6.76
+  },
+  {
+    "text": "can help inspire better",
+    "start": 290.96,
+    "duration": 3.64
+  },
+  {
+    "text": "responses even though um agents has has",
+    "start": 296.52,
+    "duration": 5.92
+  },
+  {
+    "text": "been a fairly recent development we have",
+    "start": 299.84,
+    "duration": 5.84
+  },
+  {
+    "text": "already seen um agents uh helping",
+    "start": 302.44,
+    "duration": 7.28
+  },
+  {
+    "text": "transform different uh education domains",
+    "start": 305.68,
+    "duration": 6.6
+  },
+  {
+    "text": "uh through wide ranging including",
+    "start": 309.72,
+    "duration": 6.24
+  },
+  {
+    "text": "education law Finance Health Care cyber",
+    "start": 312.28,
+    "duration": 5.84
+  },
+  {
+    "text": "security you name",
+    "start": 315.96,
+    "duration": 4.72
+  },
+  {
+    "text": "it and the development is really",
+    "start": 318.12,
+    "duration": 5.48
+  },
+  {
+    "text": "exciting and is fast improving there are",
+    "start": 320.68,
+    "duration": 4.6
+  },
+  {
+    "text": "many different leaderboards for",
+    "start": 323.6,
+    "duration": 4.48
+  },
+  {
+    "text": "different agent uh uh benchmarks that",
+    "start": 325.28,
+    "duration": 4.88
+  },
+  {
+    "text": "you can see online and you can see the",
+    "start": 328.08,
+    "duration": 4.32
+  },
+  {
+    "text": "really fast improvements on all these",
+    "start": 330.16,
+    "duration": 4.759
+  },
+  {
+    "text": "different agent",
+    "start": 332.4,
+    "duration": 6.72
+  },
+  {
+    "text": "Frameworks so overall to better enable",
+    "start": 334.919,
+    "duration": 6.481
+  },
+  {
+    "text": "um engine deployment there are a number",
+    "start": 339.12,
+    "duration": 4.359
+  },
+  {
+    "text": "of key challenges that we still need to",
+    "start": 341.4,
+    "duration": 4.76
+  },
+  {
+    "text": "address so first we need to improve the",
+    "start": 343.479,
+    "duration": 5.521
+  },
+  {
+    "text": "reasoning and planning capabilities of",
+    "start": 346.16,
+    "duration": 5.44
+  },
+  {
+    "text": "Agents agents tend to make mistakes when",
+    "start": 349.0,
+    "duration": 5.919
+  },
+  {
+    "text": "performing complex tax and to end and",
+    "start": 351.6,
+    "duration": 5.8
+  },
+  {
+    "text": "it's important to improve the reasoning",
+    "start": 354.919,
+    "duration": 5.361
+  },
+  {
+    "text": "and pl uh and planning capabilities",
+    "start": 357.4,
+    "duration": 5.68
+  },
+  {
+    "text": "and also when to improve embodiment and",
+    "start": 360.28,
+    "duration": 5.68
+  },
+  {
+    "text": "the learning uh from feed uh environment",
+    "start": 363.08,
+    "duration": 6.88
+  },
+  {
+    "text": "feedback for these uh LM agents LM",
+    "start": 365.96,
+    "duration": 7.48
+  },
+  {
+    "text": "agents are still not efficient of at",
+    "start": 369.96,
+    "duration": 5.44
+  },
+  {
+    "text": "recovering from mistakes for long",
+    "start": 373.44,
+    "duration": 5.599
+  },
+  {
+    "text": "Horizon tasks we need to further develop",
+    "start": 375.4,
+    "duration": 5.96
+  },
+  {
+    "text": "uh methods and capabilities for",
+    "start": 379.039,
+    "duration": 4.081
+  },
+  {
+    "text": "continuous learning and",
+    "start": 381.36,
+    "duration": 4.76
+  },
+  {
+    "text": "self-improvements for this L agents and",
+    "start": 383.12,
+    "duration": 5.079
+  },
+  {
+    "text": "also improve multimod understanding",
+    "start": 386.12,
+    "duration": 4.6
+  },
+  {
+    "text": "gring and world the capabilities of",
+    "start": 388.199,
+    "duration": 3.44
+  },
+  {
+    "text": "these",
+    "start": 390.72,
+    "duration": 3.599
+  },
+  {
+    "text": "agents and also as I mentioned multi",
+    "start": 391.639,
+    "duration": 6.361
+  },
+  {
+    "text": "agent can really help uh agents to uh",
+    "start": 394.319,
+    "duration": 6.641
+  },
+  {
+    "text": "provides a better solutions for tasks",
+    "start": 398.0,
+    "duration": 5.44
+  },
+  {
+    "text": "and developing threeory of Mind helps uh",
+    "start": 400.96,
+    "duration": 5.56
+  },
+  {
+    "text": "multi agents to better develop as",
+    "start": 403.44,
+    "duration": 6.92
+  },
+  {
+    "text": "well and safety and privacy these issues",
+    "start": 406.52,
+    "duration": 7.44
+  },
+  {
+    "text": "are also very important for um agents",
+    "start": 410.36,
+    "duration": 6.959
+  },
+  {
+    "text": "LMS are susceptible to ADV attacks can",
+    "start": 413.96,
+    "duration": 6.4
+  },
+  {
+    "text": "emit harmful messages or Le private data",
+    "start": 417.319,
+    "duration": 5.841
+  },
+  {
+    "text": "and so on solving these challenges are",
+    "start": 420.36,
+    "duration": 5.519
+  },
+  {
+    "text": "also really important for deploying",
+    "start": 423.16,
+    "duration": 5.759
+  },
+  {
+    "text": "agent safely in the real",
+    "start": 425.879,
+    "duration": 5.921
+  },
+  {
+    "text": "world uh and also enabling human AG",
+    "start": 428.919,
+    "duration": 6.241
+  },
+  {
+    "text": "interactions and uh ethics uh how to",
+    "start": 431.8,
+    "duration": 5.799
+  },
+  {
+    "text": "effectively control our agent behaviors",
+    "start": 435.16,
+    "duration": 4.64
+  },
+  {
+    "text": "and design interaction mode between",
+    "start": 437.599,
+    "duration": 6.081
+  },
+  {
+    "text": "humans and our agents to best in Nal our",
+    "start": 439.8,
+    "duration": 6.72
+  },
+  {
+    "text": "emissions to serve human needs is also",
+    "start": 443.68,
+    "duration": 6.199
+  },
+  {
+    "text": "really important",
+    "start": 446.52,
+    "duration": 3.359
+  },
+  {
+    "text": "so to help students learn and uh better",
+    "start": 450.479,
+    "duration": 6.761
+  },
+  {
+    "text": "develop uh methods to address these",
+    "start": 454.68,
+    "duration": 5.6
+  },
+  {
+    "text": "challenges uh the course uh is has been",
+    "start": 457.24,
+    "duration": 6.32
+  },
+  {
+    "text": "designed to cover a broad spectrum of",
+    "start": 460.28,
+    "duration": 5.84
+  },
+  {
+    "text": "topics uh actually throughout the",
+    "start": 463.56,
+    "duration": 7.12
+  },
+  {
+    "text": "different uh layers uh of the agent",
+    "start": 466.12,
+    "duration": 7.28
+  },
+  {
+    "text": "framework uh and also the",
+    "start": 470.68,
+    "duration": 6.0
+  },
+  {
+    "text": "domains so first in the class we'll",
+    "start": 473.4,
+    "duration": 8.04
+  },
+  {
+    "text": "cover uh key model uh capabilities",
+    "start": 476.68,
+    "duration": 7.56
+  },
+  {
+    "text": "including reasoning planning multimodel",
+    "start": 481.44,
+    "duration": 6.439
+  },
+  {
+    "text": "understanding we are also cover um",
+    "start": 484.24,
+    "duration": 6.48
+  },
+  {
+    "text": "popular real world agent Frameworks to",
+    "start": 487.879,
+    "duration": 5.521
+  },
+  {
+    "text": "enable students to learn how to better",
+    "start": 490.72,
+    "duration": 5.84
+  },
+  {
+    "text": "design uh agent applications and use",
+    "start": 493.4,
+    "duration": 5.84
+  },
+  {
+    "text": "various agentic flows",
+    "start": 496.56,
+    "duration": 5.639
+  },
+  {
+    "text": "easily and this will help uh students to",
+    "start": 499.24,
+    "duration": 5.6
+  },
+  {
+    "text": "also learn and to use uh our asan",
+    "start": 502.199,
+    "duration": 6.4
+  },
+  {
+    "text": "Frameworks for workflow design to use uh",
+    "start": 504.84,
+    "duration": 6.319
+  },
+  {
+    "text": "retrieval arguments the generation rack",
+    "start": 508.599,
+    "duration": 4.161
+  },
+  {
+    "text": "and multi-agent",
+    "start": 511.159,
+    "duration": 4.36
+  },
+  {
+    "text": "systems and we'll also cover a number of",
+    "start": 512.76,
+    "duration": 5.88
+  },
+  {
+    "text": "exciting application domains using these",
+    "start": 515.519,
+    "duration": 6.161
+  },
+  {
+    "text": "our agents including software code",
+    "start": 518.64,
+    "duration": 5.68
+  },
+  {
+    "text": "development workflow automation",
+    "start": 521.68,
+    "duration": 6.719
+  },
+  {
+    "text": "multimodel applications and Enterprise",
+    "start": 524.32,
+    "duration": 7.199
+  },
+  {
+    "text": "applications um and finally we'll also",
+    "start": 528.399,
+    "duration": 6.641
+  },
+  {
+    "text": "cover important topics on our agents",
+    "start": 531.519,
+    "duration": 7.521
+  },
+  {
+    "text": "safety and ethics",
+    "start": 535.04,
+    "duration": 4.0
+  },
+  {
+    "text": "to cover this wide ranging topics we",
+    "start": 540.0,
+    "duration": 5.88
+  },
+  {
+    "text": "have assembled an amazing team of guest",
+    "start": 542.36,
+    "duration": 7.12
+  },
+  {
+    "text": "speakers uh and researchers to cover",
+    "start": 545.88,
+    "duration": 6.959
+  },
+  {
+    "text": "these topics so the class will be L by",
+    "start": 549.48,
+    "duration": 7.12
+  },
+  {
+    "text": "me and shin and we have this amazing a",
+    "start": 552.839,
+    "duration": 7.321
+  },
+  {
+    "text": "crew of uh guest speakers to help uh",
+    "start": 556.6,
+    "duration": 7.84
+  },
+  {
+    "text": "cover these important topics in",
+    "start": 560.16,
+    "duration": 4.28
+  },
+  {
+    "text": "class before the talk um I want to ask",
+    "start": 565.68,
+    "duration": 5.56
+  },
+  {
+    "text": "one question for",
+    "start": 569.68,
+    "duration": 5.159
+  },
+  {
+    "text": "everyone so what do you expect",
+    "start": 571.24,
+    "duration": 10.2
+  },
+  {
+    "text": "for let me take seconds about",
+    "start": 574.839,
+    "duration": 6.601
+  },
+  {
+    "text": "it so I can imagine many different",
+    "start": 584.2,
+    "duration": 7.56
+  },
+  {
+    "text": "answers like solve the hardest math",
+    "start": 588.04,
+    "duration": 7.2
+  },
+  {
+    "text": "problems that humans Cann solve for",
+    "start": 591.76,
+    "duration": 7.199
+  },
+  {
+    "text": "example you can car cannot solve right",
+    "start": 595.24,
+    "duration": 7.159
+  },
+  {
+    "text": "or discover new scientific",
+    "start": 598.959,
+    "duration": 8.041
+  },
+  {
+    "text": "the or even South",
+    "start": 602.399,
+    "duration": 4.601
+  },
+  {
+    "text": "AI um my background is machine learning",
+    "start": 608.839,
+    "duration": 7.081
+  },
+  {
+    "text": "I don't know in the current days still",
+    "start": 613.959,
+    "duration": 5.88
+  },
+  {
+    "text": "many people study ma C or not because",
+    "start": 615.92,
+    "duration": 7.8
+  },
+  {
+    "text": "it's like transform is always need",
+    "start": 619.839,
+    "duration": 7.481
+  },
+  {
+    "text": "right as a m person I have a little",
+    "start": 623.72,
+    "duration": 7.6
+  },
+  {
+    "text": "impation about AI AI should be a perform",
+    "start": 627.32,
+    "duration": 5.8
+  },
+  {
+    "text": "from just few",
+    "start": 631.32,
+    "duration": 6.8
+  },
+  {
+    "text": "examples like what humans usually",
+    "start": 633.12,
+    "duration": 5.0
+  },
+  {
+    "text": "do in the past DEC",
+    "start": 640.16,
+    "duration": 7.08
+  },
+  {
+    "text": "case the mamic community spend great",
+    "start": 642.839,
+    "duration": 8.521
+  },
+  {
+    "text": "efforts to develop data efficient",
+    "start": 647.24,
+    "duration": 8.12
+  },
+  {
+    "text": "methods like Sam supp learning Active",
+    "start": 651.36,
+    "duration": 6.719
+  },
+  {
+    "text": "Learning",
+    "start": 655.36,
+    "duration": 5.2
+  },
+  {
+    "text": "Ma and",
+    "start": 658.079,
+    "duration": 4.161
+  },
+  {
+    "text": "you know if you look at newspaper in the",
+    "start": 660.56,
+    "duration": 4.32
+  },
+  {
+    "text": "past decade the people always excited",
+    "start": 662.24,
+    "duration": 6.159
+  },
+  {
+    "text": "about one point two point games in the",
+    "start": 664.88,
+    "duration": 5.12
+  },
+  {
+    "text": "as over",
+    "start": 668.399,
+    "duration": 5.721
+  },
+  {
+    "text": "Pap so in practice actually I never saw",
+    "start": 670.0,
+    "duration": 6.72
+  },
+  {
+    "text": "data efficient approaches I would like",
+    "start": 674.12,
+    "duration": 3.64
+  },
+  {
+    "text": "to",
+    "start": 676.72,
+    "duration": 3.4
+  },
+  {
+    "text": "say Miss and",
+    "start": 677.76,
+    "duration": 5.16
+  },
+  {
+    "text": "failed you know don't feel bad about",
+    "start": 680.12,
+    "duration": 9.0
+  },
+  {
+    "text": "that I de back I started almost",
+    "start": 682.92,
+    "duration": 6.2
+  },
+  {
+    "text": "I actually that Mo me to s a different",
+    "start": 690.959,
+    "duration": 6.361
+  },
+  {
+    "text": "problem what's missing ma",
+    "start": 697.8,
+    "duration": 4.12
+  },
+  {
+    "text": "learning so I sort of T them for years",
+    "start": 702.6,
+    "duration": 5.12
+  },
+  {
+    "text": "and",
+    "start": 706.6,
+    "duration": 5.44
+  },
+  {
+    "text": "finally I found out the answer reason",
+    "start": 707.72,
+    "duration": 8.28
+  },
+  {
+    "text": "me in the C days in particular for",
+    "start": 712.04,
+    "duration": 6.08
+  },
+  {
+    "text": "people in the course today the so",
+    "start": 716.0,
+    "duration": 7.12
+  },
+  {
+    "text": "obvious right this lecture about",
+    "start": 718.12,
+    "duration": 5.0
+  },
+  {
+    "text": "reasoning humans can learn from just few",
+    "start": 724.36,
+    "duration": 6.919
+  },
+  {
+    "text": "examples because humans can",
+    "start": 728.04,
+    "duration": 6.72
+  },
+  {
+    "text": "reason not because of data",
+    "start": 731.279,
+    "duration": 7.401
+  },
+  {
+    "text": "statistics s Street",
+    "start": 734.76,
+    "duration": 3.92
+  },
+  {
+    "text": "for let's start from a to problem in my",
+    "start": 740.199,
+    "duration": 7.801
+  },
+  {
+    "text": "research I us prefer a very simple",
+    "start": 744.76,
+    "duration": 6.12
+  },
+  {
+    "text": "problem but it Con all the detail all",
+    "start": 748.0,
+    "duration": 5.72
+  },
+  {
+    "text": "the challenge",
+    "start": 750.88,
+    "duration": 7.28
+  },
+  {
+    "text": "places so this problem is called last",
+    "start": 753.72,
+    "duration": 7.479
+  },
+  {
+    "text": "letter if you are familiar with neur",
+    "start": 758.16,
+    "duration": 6.6
+  },
+  {
+    "text": "symbolic literature you'll find similar",
+    "start": 761.199,
+    "duration": 8.481
+  },
+  {
+    "text": "problems so for this problem given a",
+    "start": 764.76,
+    "duration": 5.879
+  },
+  {
+    "text": "people",
+    "start": 769.68,
+    "duration": 6.24
+  },
+  {
+    "text": "name as input the output will be the",
+    "start": 770.639,
+    "duration": 10.2
+  },
+  {
+    "text": "conation of the first of the last letter",
+    "start": 775.92,
+    "duration": 7.56
+  },
+  {
+    "text": "of the first name and last name for",
+    "start": 780.839,
+    "duration": 4.921
+  },
+  {
+    "text": "example like you",
+    "start": 783.48,
+    "duration": 6.76
+  },
+  {
+    "text": "mask and the last letter of is n the",
+    "start": 785.76,
+    "duration": 8.68
+  },
+  {
+    "text": "last letter of M is K so output is n",
+    "start": 790.24,
+    "duration": 7.76
+  },
+  {
+    "text": "ke it's so",
+    "start": 794.44,
+    "duration": 3.56
+  },
+  {
+    "text": "simple and if you have this",
+    "start": 798.16,
+    "duration": 6.0
+  },
+  {
+    "text": "problem few years ago you probably will",
+    "start": 801.12,
+    "duration": 5.519
+  },
+  {
+    "text": "try to solve it by Machine learning",
+    "start": 804.16,
+    "duration": 5.52
+  },
+  {
+    "text": "model for example you could use",
+    "start": 806.639,
+    "duration": 6.521
+  },
+  {
+    "text": "transformal model is why is decoder is",
+    "start": 809.68,
+    "duration": 6.599
+  },
+  {
+    "text": "encod why is encoder is",
+    "start": 813.16,
+    "duration": 6.239
+  },
+  {
+    "text": "decoder and then you will find that okay",
+    "start": 816.279,
+    "duration": 5.36
+  },
+  {
+    "text": "you probably",
+    "start": 819.399,
+    "duration": 7.721
+  },
+  {
+    "text": "need penc label examples to train the",
+    "start": 821.639,
+    "duration": 9.801
+  },
+  {
+    "text": "model and finally you get accuracy like",
+    "start": 827.12,
+    "duration": 8.36
+  },
+  {
+    "text": "85% or 9%",
+    "start": 831.44,
+    "duration": 8.48
+  },
+  {
+    "text": "something now it's interesting about in",
+    "start": 835.48,
+    "duration": 7.84
+  },
+  {
+    "text": "uh methods you know for such a simple",
+    "start": 839.92,
+    "duration": 8.039
+  },
+  {
+    "text": "task I mean simple for humans okay and",
+    "start": 843.32,
+    "duration": 7.4
+  },
+  {
+    "text": "if the method requires a vast amount of",
+    "start": 847.959,
+    "duration": 6.041
+  },
+  {
+    "text": "label data to learn and would you like",
+    "start": 850.72,
+    "duration": 6.039
+  },
+  {
+    "text": "to call it as AI or not AI means",
+    "start": 854.0,
+    "duration": 4.279
+  },
+  {
+    "text": "artificial",
+    "start": 856.759,
+    "duration": 5.88
+  },
+  {
+    "text": "intelligence right as I suppose a",
+    "start": 858.279,
+    "duration": 6.601
+  },
+  {
+    "text": "intelligent model should be able to",
+    "start": 862.639,
+    "duration": 5.161
+  },
+  {
+    "text": "learn this part just using one or two",
+    "start": 864.88,
+    "duration": 6.16
+  },
+  {
+    "text": "grp examples",
+    "start": 867.8,
+    "duration": 3.24
+  },
+  {
+    "text": "now let's see how this problem can be",
+    "start": 871.32,
+    "duration": 7.079
+  },
+  {
+    "text": "solved by using uh lar Lo",
+    "start": 873.48,
+    "duration": 4.919
+  },
+  {
+    "text": "models um I suppose most",
+    "start": 878.88,
+    "duration": 8.319
+  },
+  {
+    "text": "people know lar models but Professor",
+    "start": 882.639,
+    "duration": 6.081
+  },
+  {
+    "text": "told me",
+    "start": 887.199,
+    "duration": 7.401
+  },
+  {
+    "text": "to uh explain what LM are okay LM is a",
+    "start": 888.72,
+    "duration": 9.32
+  },
+  {
+    "text": "Transformer model train to predict next",
+    "start": 894.6,
+    "duration": 7.96
+  },
+  {
+    "text": "world for example given the Tex AI is",
+    "start": 898.04,
+    "duration": 5.359
+  },
+  {
+    "text": "the",
+    "start": 902.56,
+    "duration": 6.44
+  },
+  {
+    "text": "future where mask future just AI as the",
+    "start": 903.399,
+    "duration": 9.401
+  },
+  {
+    "text": "as the input well that model predict",
+    "start": 909.0,
+    "duration": 5.279
+  },
+  {
+    "text": "what will be the next",
+    "start": 912.8,
+    "duration": 5.24
+  },
+  {
+    "text": "word if the next prediction is not the",
+    "start": 914.279,
+    "duration": 8.0
+  },
+  {
+    "text": "world future we need to adjust",
+    "start": 918.04,
+    "duration": 7.599
+  },
+  {
+    "text": "parameters to make produce in",
+    "start": 922.279,
+    "duration": 5.881
+  },
+  {
+    "text": "correct you one that's called back",
+    "start": 925.639,
+    "duration": 5.32
+  },
+  {
+    "text": "probation",
+    "start": 928.16,
+    "duration": 2.799
+  },
+  {
+    "text": "of course here you can change your model",
+    "start": 931.0,
+    "duration": 6.56
+  },
+  {
+    "text": "with many sentences for example you can",
+    "start": 933.959,
+    "duration": 7.401
+  },
+  {
+    "text": "use all text from the",
+    "start": 937.56,
+    "duration": 3.8
+  },
+  {
+    "text": "internet if you don't want to go to",
+    "start": 944.319,
+    "duration": 5.241
+  },
+  {
+    "text": "details you can simply think of training",
+    "start": 946.48,
+    "duration": 8.799
+  },
+  {
+    "text": "LS as training pars to mimic human",
+    "start": 949.56,
+    "duration": 10.839
+  },
+  {
+    "text": "language actually um I cre this sentence",
+    "start": 955.279,
+    "duration": 9.92
+  },
+  {
+    "text": "and one guy me he said he he's very fous",
+    "start": 960.399,
+    "duration": 9.8
+  },
+  {
+    "text": "about CH par has look for",
+    "start": 965.199,
+    "duration": 5.0
+  },
+  {
+    "text": "job um why we CH this model",
+    "start": 971.0,
+    "duration": 8.279
+  },
+  {
+    "text": "okay and then we can just minic the",
+    "start": 975.839,
+    "duration": 5.881
+  },
+  {
+    "text": "process of the training the training is",
+    "start": 979.279,
+    "duration": 5.961
+  },
+  {
+    "text": "about PR NE toen we can use whatever as",
+    "start": 981.72,
+    "duration": 8.479
+  },
+  {
+    "text": "input and to see what will be the output",
+    "start": 985.24,
+    "duration": 8.8
+  },
+  {
+    "text": "the just PR that token and then you can",
+    "start": 990.199,
+    "duration": 6.88
+  },
+  {
+    "text": "inut the the generated token as you can",
+    "start": 994.04,
+    "duration": 6.44
+  },
+  {
+    "text": "use the input token and the next token",
+    "start": 997.079,
+    "duration": 5.641
+  },
+  {
+    "text": "as how to get answer",
+    "start": 1000.48,
+    "duration": 6.56
+  },
+  {
+    "text": "from and for this problem we can simply",
+    "start": 1002.72,
+    "duration": 7.96
+  },
+  {
+    "text": "contaminate all the examples we have had",
+    "start": 1007.04,
+    "duration": 8.599
+  },
+  {
+    "text": "as the input and also concate with Test",
+    "start": 1010.68,
+    "duration": 9.24
+  },
+  {
+    "text": "example Barack Obama here",
+    "start": 1015.639,
+    "duration": 7.56
+  },
+  {
+    "text": "we can try this has use any LM and see",
+    "start": 1019.92,
+    "duration": 5.96
+  },
+  {
+    "text": "what happened and probably see you get a",
+    "start": 1023.199,
+    "duration": 3.921
+  },
+  {
+    "text": "wrong answer",
+    "start": 1025.88,
+    "duration": 4.76
+  },
+  {
+    "text": "here is c k of course it's not correct",
+    "start": 1027.12,
+    "duration": 6.319
+  },
+  {
+    "text": "right because K is a last letter of",
+    "start": 1030.64,
+    "duration": 6.6
+  },
+  {
+    "text": "bread and and a is the last of Obama the",
+    "start": 1033.439,
+    "duration": 5.561
+  },
+  {
+    "text": "output should be a",
+    "start": 1037.24,
+    "duration": 7.0
+  },
+  {
+    "text": "k so it's wrong right the problem this",
+    "start": 1039.0,
+    "duration": 8.439
+  },
+  {
+    "text": "called f short PR it's just mimic of",
+    "start": 1044.24,
+    "duration": 5.28
+  },
+  {
+    "text": "machine learning process",
+    "start": 1047.439,
+    "duration": 5.081
+  },
+  {
+    "text": "instead of training model we just use",
+    "start": 1049.52,
+    "duration": 7.84
+  },
+  {
+    "text": "the examples at input that's the only",
+    "start": 1052.52,
+    "duration": 4.84
+  },
+  {
+    "text": "difference in the C days we know how to",
+    "start": 1058.6,
+    "duration": 7.84
+  },
+  {
+    "text": "fix this uh this prompting",
+    "start": 1062.52,
+    "duration": 8.56
+  },
+  {
+    "text": "idea we just need to add reing process",
+    "start": 1066.44,
+    "duration": 7.44
+  },
+  {
+    "text": "before",
+    "start": 1071.08,
+    "duration": 6.2
+  },
+  {
+    "text": "answer like we just add the exclusive",
+    "start": 1073.88,
+    "duration": 8.24
+  },
+  {
+    "text": "press here the last L is n the last of M",
+    "start": 1077.28,
+    "duration": 11.08
+  },
+  {
+    "text": "is k n k n k like that it's called reing",
+    "start": 1082.12,
+    "duration": 10.439
+  },
+  {
+    "text": "process and similarly for",
+    "start": 1088.36,
+    "duration": 7.679
+  },
+  {
+    "text": "bases and now we the this as the new",
+    "start": 1092.559,
+    "duration": 5.721
+  },
+  {
+    "text": "input and you will",
+    "start": 1096.039,
+    "duration": 7.161
+  },
+  {
+    "text": "see okay we get a perfect response from",
+    "start": 1098.28,
+    "duration": 8.68
+  },
+  {
+    "text": "the large models",
+    "start": 1103.2,
+    "duration": 3.76
+  },
+  {
+    "text": "so even like a humans one demonstration",
+    "start": 1110.76,
+    "duration": 8.36
+  },
+  {
+    "text": "is enough to get accuracy",
+    "start": 1114.159,
+    "duration": 4.961
+  },
+  {
+    "text": "100% that's exactly what I looked",
+    "start": 1119.799,
+    "duration": 7.601
+  },
+  {
+    "text": "for we cannot imagine any machine",
+    "start": 1124.36,
+    "duration": 4.16
+  },
+  {
+    "text": "learning",
+    "start": 1127.4,
+    "duration": 3.56
+  },
+  {
+    "text": "method can achieve this perfect",
+    "start": 1128.52,
+    "duration": 6.56
+  },
+  {
+    "text": "generation here this no",
+    "start": 1130.96,
+    "duration": 4.12
+  },
+  {
+    "text": "way but by the way don't overrate what I",
+    "start": 1135.88,
+    "duration": 7.039
+  },
+  {
+    "text": "said about machon maon is just so useful",
+    "start": 1138.96,
+    "duration": 8.04
+  },
+  {
+    "text": "and important for doing research in the",
+    "start": 1142.919,
+    "duration": 8.481
+  },
+  {
+    "text": "C days I saw many naive mistakes from",
+    "start": 1147.0,
+    "duration": 7.48
+  },
+  {
+    "text": "social media news even from the the",
+    "start": 1151.4,
+    "duration": 4.8
+  },
+  {
+    "text": "papers",
+    "start": 1154.48,
+    "duration": 3.96
+  },
+  {
+    "text": "conferences all the native mistakes",
+    "start": 1156.2,
+    "duration": 5.959
+  },
+  {
+    "text": "mostly from people who have no AC on",
+    "start": 1158.44,
+    "duration": 4.8
+  },
+  {
+    "text": "machine",
+    "start": 1162.159,
+    "duration": 3.481
+  },
+  {
+    "text": "learning they just random different",
+    "start": 1163.24,
+    "duration": 5.4
+  },
+  {
+    "text": "ideas",
+    "start": 1165.64,
+    "duration": 3.0
+  },
+  {
+    "text": "it's interestingly you know this kind of",
+    "start": 1169.24,
+    "duration": 5.439
+  },
+  {
+    "text": "idea of adding intermediate",
+    "start": 1171.44,
+    "duration": 9.479
+  },
+  {
+    "text": "steps has been uh propos many years um",
+    "start": 1174.679,
+    "duration": 7.12
+  },
+  {
+    "text": "in the",
+    "start": 1180.919,
+    "duration": 4.281
+  },
+  {
+    "text": "literature so this is the amazing",
+    "start": 1181.799,
+    "duration": 10.24
+  },
+  {
+    "text": "paper we know um by researchers mind",
+    "start": 1185.2,
+    "duration": 10.08
+  },
+  {
+    "text": "published Ino",
+    "start": 1192.039,
+    "duration": 7.281
+  },
+  {
+    "text": "2017 so in their paper",
+    "start": 1195.28,
+    "duration": 7.8
+  },
+  {
+    "text": "they uh use natural Lang re nail to",
+    "start": 1199.32,
+    "duration": 5.479
+  },
+  {
+    "text": "solve Mass",
+    "start": 1203.08,
+    "duration": 5.719
+  },
+  {
+    "text": "problems in their paper the even Road",
+    "start": 1204.799,
+    "duration": 7.401
+  },
+  {
+    "text": "derive The Final Answer through a series",
+    "start": 1208.799,
+    "duration": 4.601
+  },
+  {
+    "text": "of small",
+    "start": 1212.2,
+    "duration": 5.04
+  },
+  {
+    "text": "steps and then they trained a a s six",
+    "start": 1213.4,
+    "duration": 7.24
+  },
+  {
+    "text": "model from",
+    "start": 1217.24,
+    "duration": 3.4
+  },
+  {
+    "text": "scratch if you know Channel work you'll",
+    "start": 1221.6,
+    "duration": 8.8
+  },
+  {
+    "text": "be so surprising about the paper right",
+    "start": 1225.72,
+    "duration": 8.64
+  },
+  {
+    "text": "the authors are just like Time",
+    "start": 1230.4,
+    "duration": 6.84
+  },
+  {
+    "text": "Travelers they know how to make a",
+    "start": 1234.36,
+    "duration": 5.199
+  },
+  {
+    "text": "different",
+    "start": 1237.24,
+    "duration": 2.319
+  },
+  {
+    "text": "approach in",
+    "start": 1240.48,
+    "duration": 6.52
+  },
+  {
+    "text": "2021 a team in the",
+    "start": 1243.32,
+    "duration": 7.0
+  },
+  {
+    "text": "OPI published an amazing data set called",
+    "start": 1247.0,
+    "duration": 8.48
+  },
+  {
+    "text": "GSM K they are followed the idea in t",
+    "start": 1250.32,
+    "duration": 6.68
+  },
+  {
+    "text": "paper in",
+    "start": 1255.48,
+    "duration": 5.84
+  },
+  {
+    "text": "2017 in this set every",
+    "start": 1257.0,
+    "duration": 8.039
+  },
+  {
+    "text": "problem uh followed by intimidate steps",
+    "start": 1261.32,
+    "duration": 6.56
+  },
+  {
+    "text": "as solution and also final",
+    "start": 1265.039,
+    "duration": 4.601
+  },
+  {
+    "text": "answer",
+    "start": 1267.88,
+    "duration": 5.56
+  },
+  {
+    "text": "and this team created this amazing data",
+    "start": 1269.64,
+    "duration": 9.279
+  },
+  {
+    "text": "set and they use that to F tune gp3",
+    "start": 1273.44,
+    "duration": 9.76
+  },
+  {
+    "text": "model they are greatly scale up the work",
+    "start": 1278.919,
+    "duration": 8.561
+  },
+  {
+    "text": "by good demand in 2017",
+    "start": 1283.2,
+    "duration": 4.28
+  },
+  {
+    "text": "even in the same year 2021 a group of",
+    "start": 1288.88,
+    "duration": 6.0
+  },
+  {
+    "text": "researchers in Google brain now part of",
+    "start": 1292.2,
+    "duration": 6.52
+  },
+  {
+    "text": "Google mind part the work like show work",
+    "start": 1294.88,
+    "duration": 6.159
+  },
+  {
+    "text": "s path for intermediate competition with",
+    "start": 1298.72,
+    "duration": 5.36
+  },
+  {
+    "text": "logal models they",
+    "start": 1301.039,
+    "duration": 5.561
+  },
+  {
+    "text": "discovered the similar ideas",
+    "start": 1304.08,
+    "duration": 5.599
+  },
+  {
+    "text": "independently but in the domain of",
+    "start": 1306.6,
+    "duration": 4.959
+  },
+  {
+    "text": "program",
+    "start": 1309.679,
+    "duration": 5.641
+  },
+  {
+    "text": "synthesis that's why they used um Abra",
+    "start": 1311.559,
+    "duration": 8.761
+  },
+  {
+    "text": "symbols here instead of using natural",
+    "start": 1315.32,
+    "duration": 7.359
+  },
+  {
+    "text": "language in the country probably many",
+    "start": 1320.32,
+    "duration": 5.2
+  },
+  {
+    "text": "people know our work CH of s property",
+    "start": 1322.679,
+    "duration": 5.681
+  },
+  {
+    "text": "and the chain of s actually literally CH",
+    "start": 1325.52,
+    "duration": 6.159
+  },
+  {
+    "text": "of s is not a term way invented it's",
+    "start": 1328.36,
+    "duration": 8.16
+  },
+  {
+    "text": "just common English phrase it means M St",
+    "start": 1331.679,
+    "duration": 9.441
+  },
+  {
+    "text": "reasoning so in this work we extensively",
+    "start": 1336.52,
+    "duration": 8.399
+  },
+  {
+    "text": "evaluated from individ steps and show",
+    "start": 1341.12,
+    "duration": 9.4
+  },
+  {
+    "text": "amazing results on almost every NLP Tass",
+    "start": 1344.919,
+    "duration": 5.601
+  },
+  {
+    "text": "so that's all the pap here together in",
+    "start": 1354.88,
+    "duration": 9.0
+  },
+  {
+    "text": "2017 who demand publishing paper",
+    "start": 1360.6,
+    "duration": 5.84
+  },
+  {
+    "text": "training with inmedia",
+    "start": 1363.88,
+    "duration": 5.679
+  },
+  {
+    "text": "steps in",
+    "start": 1366.44,
+    "duration": 6.719
+  },
+  {
+    "text": "2021 and the few poty",
+    "start": 1369.559,
+    "duration": 7.161
+  },
+  {
+    "text": "papers LS with intermediate",
+    "start": 1373.159,
+    "duration": 7.361
+  },
+  {
+    "text": "steps in 20 21",
+    "start": 1376.72,
+    "duration": 5.559
+  },
+  {
+    "text": "2022",
+    "start": 1380.52,
+    "duration": 5.72
+  },
+  {
+    "text": "and promting with intermediate",
+    "start": 1382.279,
+    "duration": 8.28
+  },
+  {
+    "text": "steps I will see okay which part is more",
+    "start": 1386.24,
+    "duration": 7.039
+  },
+  {
+    "text": "important you can see",
+    "start": 1390.559,
+    "duration": 6.0
+  },
+  {
+    "text": "here actually it doesn't",
+    "start": 1393.279,
+    "duration": 8.321
+  },
+  {
+    "text": "matter if you are CH or F or",
+    "start": 1396.559,
+    "duration": 8.281
+  },
+  {
+    "text": "model what really matter appear",
+    "start": 1401.6,
+    "duration": 7.959
+  },
+  {
+    "text": "here intermediate steps",
+    "start": 1404.84,
+    "duration": 4.719
+  },
+  {
+    "text": "that's the",
+    "start": 1410.24,
+    "duration": 2.559
+  },
+  {
+    "text": "key so let me summarize here regardless",
+    "start": 1415.159,
+    "duration": 7.681
+  },
+  {
+    "text": "of training funing or",
+    "start": 1419.799,
+    "duration": 6.081
+  },
+  {
+    "text": "promting when provided with examples",
+    "start": 1422.84,
+    "duration": 5.12
+  },
+  {
+    "text": "that include intermediate",
+    "start": 1425.88,
+    "duration": 7.279
+  },
+  {
+    "text": "steps L will generate responses that",
+    "start": 1427.96,
+    "duration": 9.76
+  },
+  {
+    "text": "also include intermediate steps",
+    "start": 1433.159,
+    "duration": 4.561
+  },
+  {
+    "text": "Okay g the mid St when ask question is",
+    "start": 1442.48,
+    "duration": 8.04
+  },
+  {
+    "text": "it helpful to introduce reason",
+    "start": 1447.64,
+    "duration": 7.44
+  },
+  {
+    "text": "strategies in those examples for humans",
+    "start": 1450.52,
+    "duration": 7.2
+  },
+  {
+    "text": "they when they solve a problem they",
+    "start": 1455.08,
+    "duration": 7.599
+  },
+  {
+    "text": "could have a strategy for",
+    "start": 1457.72,
+    "duration": 4.959
+  },
+  {
+    "text": "solving so this um so here's I work from",
+    "start": 1464.12,
+    "duration": 9.2
+  },
+  {
+    "text": "our team is this most PR team in this",
+    "start": 1469.48,
+    "duration": 7.0
+  },
+  {
+    "text": "work we enable easy to hard Generation",
+    "start": 1473.32,
+    "duration": 5.56
+  },
+  {
+    "text": "by the",
+    "start": 1476.48,
+    "duration": 2.4
+  },
+  {
+    "text": "composition probably many people saw",
+    "start": 1479.48,
+    "duration": 4.559
+  },
+  {
+    "text": "this famous",
+    "start": 1482.679,
+    "duration": 6.201
+  },
+  {
+    "text": "book how to solve it by Pia a classic",
+    "start": 1484.039,
+    "duration": 7.041
+  },
+  {
+    "text": "book for Mass",
+    "start": 1488.88,
+    "duration": 6.24
+  },
+  {
+    "text": "education so there's a chapter about de",
+    "start": 1491.08,
+    "duration": 7.8
+  },
+  {
+    "text": "composition so if you just if you go",
+    "start": 1495.12,
+    "duration": 7.72
+  },
+  {
+    "text": "details you may loss yourself in",
+    "start": 1498.88,
+    "duration": 6.96
+  },
+  {
+    "text": "details",
+    "start": 1502.84,
+    "duration": 3.0
+  },
+  {
+    "text": "yeah now let's see what is difference by",
+    "start": 1507.08,
+    "duration": 9.4
+  },
+  {
+    "text": "um by DEC computation so given this uh",
+    "start": 1511.24,
+    "duration": 7.319
+  },
+  {
+    "text": "Mass problem",
+    "start": 1516.48,
+    "duration": 7.16
+  },
+  {
+    "text": "here so by the way so um in this talk",
+    "start": 1518.559,
+    "duration": 9.0
+  },
+  {
+    "text": "the mass is keep at a elementary level",
+    "start": 1523.64,
+    "duration": 7.759
+  },
+  {
+    "text": "so every time I a par um before actually",
+    "start": 1527.559,
+    "duration": 7.24
+  },
+  {
+    "text": "my daughter also came my par",
+    "start": 1531.399,
+    "duration": 7.201
+  },
+  {
+    "text": "and make she could understand she's at",
+    "start": 1534.799,
+    "duration": 5.961
+  },
+  {
+    "text": "the fifth grade",
+    "start": 1538.6,
+    "duration": 6.92
+  },
+  {
+    "text": "now and U you say es has three apples",
+    "start": 1540.76,
+    "duration": 8.36
+  },
+  {
+    "text": "Anna has two more apples than Isa how",
+    "start": 1545.52,
+    "duration": 7.399
+  },
+  {
+    "text": "many apples do they have together okay",
+    "start": 1549.12,
+    "duration": 6.52
+  },
+  {
+    "text": "we see the difference is that okay we",
+    "start": 1552.919,
+    "duration": 5.76
+  },
+  {
+    "text": "first show light models how to break",
+    "start": 1555.64,
+    "duration": 7.0
+  },
+  {
+    "text": "down this problem to Sol problems and",
+    "start": 1558.679,
+    "duration": 6.161
+  },
+  {
+    "text": "then solve one by",
+    "start": 1562.64,
+    "duration": 5.759
+  },
+  {
+    "text": "one and that's why could least most from",
+    "start": 1564.84,
+    "duration": 8.199
+  },
+  {
+    "text": "least to most complex",
+    "start": 1568.399,
+    "duration": 4.64
+  },
+  {
+    "text": "problems is",
+    "start": 1574.679,
+    "duration": 7.0
+  },
+  {
+    "text": "very simple idea but surprisingly awful",
+    "start": 1576.679,
+    "duration": 7.681
+  },
+  {
+    "text": "so I suest is how to De compose complex",
+    "start": 1581.679,
+    "duration": 7.0
+  },
+  {
+    "text": "task into simple tasks so this is a um",
+    "start": 1584.36,
+    "duration": 8.76
+  },
+  {
+    "text": "scan task for composition or",
+    "start": 1588.679,
+    "duration": 6.561
+  },
+  {
+    "text": "generalization you can look at examples",
+    "start": 1593.12,
+    "duration": 4.88
+  },
+  {
+    "text": "here give a naturally natural language",
+    "start": 1595.24,
+    "duration": 7.039
+  },
+  {
+    "text": "uh command and we need to translate to a",
+    "start": 1598.0,
+    "duration": 6.52
+  },
+  {
+    "text": "sequence of",
+    "start": 1602.279,
+    "duration": 4.681
+  },
+  {
+    "text": "accents and that could be executed by",
+    "start": 1604.52,
+    "duration": 4.12
+  },
+  {
+    "text": "robots something like",
+    "start": 1606.96,
+    "duration": 6.24
+  },
+  {
+    "text": "that so if you use list most promp we",
+    "start": 1608.64,
+    "duration": 7.12
+  },
+  {
+    "text": "get accuracy",
+    "start": 1613.2,
+    "duration": 9.079
+  },
+  {
+    "text": "99.7 so we just use1 % demonstration",
+    "start": 1615.76,
+    "duration": 6.519
+  },
+  {
+    "text": "examples so I wonder why I chose this",
+    "start": 1623.32,
+    "duration": 8.12
+  },
+  {
+    "text": "task actually um I knew this T from sh",
+    "start": 1626.36,
+    "duration": 8.12
+  },
+  {
+    "text": "she's here today and she invented a",
+    "start": 1631.44,
+    "duration": 6.719
+  },
+  {
+    "text": "beautiful approach to solve this task",
+    "start": 1634.48,
+    "duration": 4.84
+  },
+  {
+    "text": "many years",
+    "start": 1638.159,
+    "duration": 4.041
+  },
+  {
+    "text": "ago when I looked at this task I was",
+    "start": 1639.32,
+    "duration": 5.359
+  },
+  {
+    "text": "really surprised because it look so",
+    "start": 1642.2,
+    "duration": 4.28
+  },
+  {
+    "text": "straightforward for",
+    "start": 1644.679,
+    "duration": 5.801
+  },
+  {
+    "text": "humans why could be so difficult for",
+    "start": 1646.48,
+    "duration": 9.0
+  },
+  {
+    "text": "Maes finally we can make it by",
+    "start": 1650.48,
+    "duration": 5.0
+  },
+  {
+    "text": "LS and this is another task with save",
+    "start": 1657.88,
+    "duration": 6.48
+  },
+  {
+    "text": "here test to code again a compositional",
+    "start": 1660.64,
+    "duration": 6.84
+  },
+  {
+    "text": "generation part I don't know if",
+    "start": 1664.36,
+    "duration": 7.039
+  },
+  {
+    "text": "anyone knows the concept compositional",
+    "start": 1667.48,
+    "duration": 7.28
+  },
+  {
+    "text": "generation roughly speaking the test",
+    "start": 1671.399,
+    "duration": 8.28
+  },
+  {
+    "text": "examples are more difficult than",
+    "start": 1674.76,
+    "duration": 4.919
+  },
+  {
+    "text": "then training examples or or prompting",
+    "start": 1679.84,
+    "duration": 7.76
+  },
+  {
+    "text": "examples so for example uh for the for",
+    "start": 1683.84,
+    "duration": 6.16
+  },
+  {
+    "text": "the for the T code",
+    "start": 1687.6,
+    "duration": 8.52
+  },
+  {
+    "text": "problems the T problems we need uh",
+    "start": 1690.0,
+    "duration": 9.12
+  },
+  {
+    "text": "longer",
+    "start": 1696.12,
+    "duration": 3.0
+  },
+  {
+    "text": "snipp here where approach is a little",
+    "start": 1699.2,
+    "duration": 4.479
+  },
+  {
+    "text": "bit Chang littleit called Dynamic L most",
+    "start": 1701.44,
+    "duration": 5.44
+  },
+  {
+    "text": "PR and we just use one person data and",
+    "start": 1703.679,
+    "duration": 6.281
+  },
+  {
+    "text": "achieve the proper great results way",
+    "start": 1706.88,
+    "duration": 6.0
+  },
+  {
+    "text": "better than uh the solar results in the",
+    "start": 1709.96,
+    "duration": 5.719
+  },
+  {
+    "text": "literature and the solar result in",
+    "start": 1712.88,
+    "duration": 5.399
+  },
+  {
+    "text": "actually are by",
+    "start": 1715.679,
+    "duration": 5.801
+  },
+  {
+    "text": "specialized architecture design and the",
+    "start": 1718.279,
+    "duration": 5.64
+  },
+  {
+    "text": "training and they use of course all the",
+    "start": 1721.48,
+    "duration": 5.12
+  },
+  {
+    "text": "train data",
+    "start": 1723.919,
+    "duration": 2.681
+  },
+  {
+    "text": "set yeah so far any question here",
+    "start": 1729.12,
+    "duration": 9.159
+  },
+  {
+    "text": "otherwise I'll go to the next section",
+    "start": 1733.799,
+    "duration": 4.48
+  },
+  {
+    "text": "yeah okay I suppose this part is quite a",
+    "start": 1739.679,
+    "duration": 4.401
+  },
+  {
+    "text": "familiar for",
+    "start": 1742.72,
+    "duration": 5.079
+  },
+  {
+    "text": "everyone um I have two Cas my daughter",
+    "start": 1744.08,
+    "duration": 4.719
+  },
+  {
+    "text": "is",
+    "start": 1747.799,
+    "duration": 4.6
+  },
+  {
+    "text": "uh um 10 years old and my my son is 7",
+    "start": 1748.799,
+    "duration": 8.6
+  },
+  {
+    "text": "years old um actually when the CH pring",
+    "start": 1752.399,
+    "duration": 8.681
+  },
+  {
+    "text": "paper came out I uh heard a very",
+    "start": 1757.399,
+    "duration": 5.201
+  },
+  {
+    "text": "interesting conversation between my",
+    "start": 1761.08,
+    "duration": 5.04
+  },
+  {
+    "text": "daughter and my my son and my daughter",
+    "start": 1762.6,
+    "duration": 6.199
+  },
+  {
+    "text": "asked uh her little brother",
+    "start": 1766.12,
+    "duration": 8.2
+  },
+  {
+    "text": "so was 11 17 *",
+    "start": 1768.799,
+    "duration": 8.801
+  },
+  {
+    "text": "three um the little brother said I don't",
+    "start": 1774.32,
+    "duration": 8.239
+  },
+  {
+    "text": "know and then she asked was 10 times St",
+    "start": 1777.6,
+    "duration": 10.76
+  },
+  {
+    "text": "30 was 7 time 3 21 so what's the 17 3 oh",
+    "start": 1782.559,
+    "duration": 7.24
+  },
+  {
+    "text": "yeah I know",
+    "start": 1788.36,
+    "duration": 4.96
+  },
+  {
+    "text": "51 and the funny say is my daughter",
+    "start": 1789.799,
+    "duration": 7.24
+  },
+  {
+    "text": "shouted to me Daddy CH pring also works",
+    "start": 1793.32,
+    "duration": 6.719
+  },
+  {
+    "text": "my little brother bra",
+    "start": 1797.039,
+    "duration": 3.0
+  },
+  {
+    "text": "okay now uh okay why may see okay why",
+    "start": 1805.96,
+    "duration": 7.199
+  },
+  {
+    "text": "intermediate steps are",
+    "start": 1809.799,
+    "duration": 5.841
+  },
+  {
+    "text": "helpful so why me say okay that's so",
+    "start": 1813.159,
+    "duration": 3.681
+  },
+  {
+    "text": "natural for",
+    "start": 1815.64,
+    "duration": 5.32
+  },
+  {
+    "text": "humans but if we are doing research we",
+    "start": 1816.84,
+    "duration": 7.6
+  },
+  {
+    "text": "have to S it deeper you know that's just",
+    "start": 1820.96,
+    "duration": 7.12
+  },
+  {
+    "text": "something similar that LS are just",
+    "start": 1824.44,
+    "duration": 7.56
+  },
+  {
+    "text": "models while understand what",
+    "start": 1828.08,
+    "duration": 3.92
+  },
+  {
+    "text": "happened and this year we have work",
+    "start": 1832.08,
+    "duration": 6.04
+  },
+  {
+    "text": "published at 2024 and I collaborated",
+    "start": 1834.559,
+    "duration": 7.12
+  },
+  {
+    "text": "with Bren s from",
+    "start": 1838.12,
+    "duration": 7.159
+  },
+  {
+    "text": "Stanford and in that work we are give",
+    "start": 1841.679,
+    "duration": 6.201
+  },
+  {
+    "text": "rigorous mathematical",
+    "start": 1845.279,
+    "duration": 6.12
+  },
+  {
+    "text": "analysis okay so um here are the key",
+    "start": 1847.88,
+    "duration": 6.48
+  },
+  {
+    "text": "results Transformer generating",
+    "start": 1851.399,
+    "duration": 6.041
+  },
+  {
+    "text": "intermediate steps can solve any in",
+    "start": 1854.36,
+    "duration": 6.6
+  },
+  {
+    "text": "currently seral problem as long as it",
+    "start": 1857.44,
+    "duration": 5.32
+  },
+  {
+    "text": "deps",
+    "start": 1860.96,
+    "duration": 6.24
+  },
+  {
+    "text": "exceeds a constant sh colde after",
+    "start": 1862.76,
+    "duration": 7.639
+  },
+  {
+    "text": "emphasiz get constant that means",
+    "start": 1867.2,
+    "duration": 5.319
+  },
+  {
+    "text": "independent for your",
+    "start": 1870.399,
+    "duration": 5.561
+  },
+  {
+    "text": "input however if a",
+    "start": 1872.519,
+    "duration": 6.16
+  },
+  {
+    "text": "Transformer generating direct",
+    "start": 1875.96,
+    "duration": 7.839
+  },
+  {
+    "text": "answers either requires a huge deps to",
+    "start": 1878.679,
+    "duration": 11.081
+  },
+  {
+    "text": "solve or canot solve at all",
+    "start": 1883.799,
+    "duration": 5.961
+  },
+  {
+    "text": "yeah please check the statements again",
+    "start": 1890.279,
+    "duration": 7.201
+  },
+  {
+    "text": "then I'm moving to the next",
+    "start": 1893.44,
+    "duration": 4.04
+  },
+  {
+    "text": "slide probably can see tons of practical",
+    "start": 1898.2,
+    "duration": 6.28
+  },
+  {
+    "text": "implications of this",
+    "start": 1901.44,
+    "duration": 7.16
+  },
+  {
+    "text": "Theory yeah if you are couldn't Sol a",
+    "start": 1904.48,
+    "duration": 6.96
+  },
+  {
+    "text": "problem you may think about generating",
+    "start": 1908.6,
+    "duration": 5.679
+  },
+  {
+    "text": "more in",
+    "start": 1911.44,
+    "duration": 8.4
+  },
+  {
+    "text": "STS and also probably you could have",
+    "start": 1914.279,
+    "duration": 5.561
+  },
+  {
+    "text": "um call some external tools that search",
+    "start": 1920.159,
+    "duration": 8.36
+  },
+  {
+    "text": "to help intermed",
+    "start": 1925.639,
+    "duration": 7.841
+  },
+  {
+    "text": "steps right so I think in in this LM",
+    "start": 1928.519,
+    "duration": 8.0
+  },
+  {
+    "text": "agent um course many people talk about",
+    "start": 1933.48,
+    "duration": 4.96
+  },
+  {
+    "text": "how to use exal",
+    "start": 1936.519,
+    "duration": 4.801
+  },
+  {
+    "text": "force and you could think about how to",
+    "start": 1938.44,
+    "duration": 7.599
+  },
+  {
+    "text": "diing L fures and limitations yeah so I",
+    "start": 1941.32,
+    "duration": 7.239
+  },
+  {
+    "text": "have one of my big fun",
+    "start": 1946.039,
+    "duration": 5.281
+  },
+  {
+    "text": "is to find",
+    "start": 1948.559,
+    "duration": 5.681
+  },
+  {
+    "text": "problems my daughter can solve in",
+    "start": 1951.32,
+    "duration": 4.8
+  },
+  {
+    "text": "settings",
+    "start": 1954.24,
+    "duration": 5.919
+  },
+  {
+    "text": "by fail",
+    "start": 1956.12,
+    "duration": 4.039
+  },
+  {
+    "text": "yeah okay so far we have talked about",
+    "start": 1961.919,
+    "duration": 6.441
+  },
+  {
+    "text": "how to use",
+    "start": 1965.2,
+    "duration": 6.079
+  },
+  {
+    "text": "examples to trickle",
+    "start": 1968.36,
+    "duration": 7.319
+  },
+  {
+    "text": "LS uh to generate step by step",
+    "start": 1971.279,
+    "duration": 7.921
+  },
+  {
+    "text": "re so one one is possible to triggle",
+    "start": 1975.679,
+    "duration": 7.281
+  },
+  {
+    "text": "with you without",
+    "start": 1979.2,
+    "duration": 3.76
+  },
+  {
+    "text": "using it's an amazing work actually when",
+    "start": 1985.84,
+    "duration": 7.319
+  },
+  {
+    "text": "this paper came out I thought it was a",
+    "start": 1989.559,
+    "duration": 6.84
+  },
+  {
+    "text": "joke it turn out not and then I was",
+    "start": 1993.159,
+    "duration": 5.961
+  },
+  {
+    "text": "inspired a lot by this work it's called",
+    "start": 1996.399,
+    "duration": 5.481
+  },
+  {
+    "text": "let thing step by",
+    "start": 1999.12,
+    "duration": 5.519
+  },
+  {
+    "text": "step so given this question okay we",
+    "start": 2001.88,
+    "duration": 5.6
+  },
+  {
+    "text": "don't need any examples we just need to",
+    "start": 2004.639,
+    "duration": 4.88
+  },
+  {
+    "text": "see Lessing step by",
+    "start": 2007.48,
+    "duration": 7.76
+  },
+  {
+    "text": "step and the motel can generate buiness",
+    "start": 2009.519,
+    "duration": 5.721
+  },
+  {
+    "text": "steps yeah it's really cool but usually",
+    "start": 2020.24,
+    "duration": 6.039
+  },
+  {
+    "text": "you know the Z short approach that mean",
+    "start": 2023.559,
+    "duration": 6.881
+  },
+  {
+    "text": "z short there's Nostra examples um it's",
+    "start": 2026.279,
+    "duration": 6.36
+  },
+  {
+    "text": "worse than F",
+    "start": 2030.44,
+    "duration": 7.839
+  },
+  {
+    "text": "sh so we wonder okay if we have approach",
+    "start": 2032.639,
+    "duration": 9.88
+  },
+  {
+    "text": "is still to short but can do much better",
+    "start": 2038.279,
+    "duration": 8.081
+  },
+  {
+    "text": "work so this these two our another work",
+    "start": 2042.519,
+    "duration": 9.201
+  },
+  {
+    "text": "is called L as analogical",
+    "start": 2046.36,
+    "duration": 5.36
+  },
+  {
+    "text": "reasoners so again this beautiful book",
+    "start": 2054.359,
+    "duration": 6.52
+  },
+  {
+    "text": "how to solve it and",
+    "start": 2057.639,
+    "duration": 8.2
+  },
+  {
+    "text": "bolia you um so in book say okay how to",
+    "start": 2060.879,
+    "duration": 8.401
+  },
+  {
+    "text": "do analog reasoning in s Mass problems",
+    "start": 2065.839,
+    "duration": 7.201
+  },
+  {
+    "text": "so we see in new problem you first ask",
+    "start": 2069.28,
+    "duration": 8.24
+  },
+  {
+    "text": "your a question do you know a related",
+    "start": 2073.04,
+    "duration": 8.68
+  },
+  {
+    "text": "problem or methods or strategies",
+    "start": 2077.52,
+    "duration": 8.68
+  },
+  {
+    "text": "here so after how you're going toy find",
+    "start": 2081.72,
+    "duration": 7.84
+  },
+  {
+    "text": "this and provide another",
+    "start": 2086.2,
+    "duration": 5.32
+  },
+  {
+    "text": "paper",
+    "start": 2089.56,
+    "duration": 6.319
+  },
+  {
+    "text": "um so this I really like the code from B",
+    "start": 2091.52,
+    "duration": 6.52
+  },
+  {
+    "text": "yeah if you started fun analysis you",
+    "start": 2095.879,
+    "duration": 4.281
+  },
+  {
+    "text": "will know",
+    "start": 2098.04,
+    "duration": 3.72
+  },
+  {
+    "text": "space",
+    "start": 2100.16,
+    "duration": 4.8
+  },
+  {
+    "text": "and I was really Amazed by that last",
+    "start": 2101.76,
+    "duration": 7.0
+  },
+  {
+    "text": "sentence the ultimate mathematic is one",
+    "start": 2104.96,
+    "duration": 8.119
+  },
+  {
+    "text": "who can see analogies between",
+    "start": 2108.76,
+    "duration": 4.319
+  },
+  {
+    "text": "analogies of course I I show the here to",
+    "start": 2113.119,
+    "duration": 8.521
+  },
+  {
+    "text": "let you know how far from",
+    "start": 2117.52,
+    "duration": 4.12
+  },
+  {
+    "text": "a um so given this simple problem okay",
+    "start": 2122.72,
+    "duration": 6.6
+  },
+  {
+    "text": "of course can see okay lesson step by",
+    "start": 2127.24,
+    "duration": 4.68
+  },
+  {
+    "text": "step but now we can see different way",
+    "start": 2129.32,
+    "duration": 5.799
+  },
+  {
+    "text": "okay we call a related problem and then",
+    "start": 2131.92,
+    "duration": 6.36
+  },
+  {
+    "text": "solve the one Sol this one okay you can",
+    "start": 2135.119,
+    "duration": 7.24
+  },
+  {
+    "text": "see that actually indeed we c um",
+    "start": 2138.28,
+    "duration": 6.2
+  },
+  {
+    "text": "relevant examples and the knowledge is",
+    "start": 2142.359,
+    "duration": 4.201
+  },
+  {
+    "text": "here but those problem are exactly the",
+    "start": 2144.48,
+    "duration": 5.08
+  },
+  {
+    "text": "same problem but they are use for that's",
+    "start": 2146.56,
+    "duration": 5.799
+  },
+  {
+    "text": "amazing",
+    "start": 2149.56,
+    "duration": 2.799
+  },
+  {
+    "text": "you and uh we found that actually which",
+    "start": 2154.52,
+    "duration": 5.92
+  },
+  {
+    "text": "of course we try to bench marks and see",
+    "start": 2157.92,
+    "duration": 5.8
+  },
+  {
+    "text": "it works really well so you can see that",
+    "start": 2160.44,
+    "duration": 6.28
+  },
+  {
+    "text": "um the last R is from analogical",
+    "start": 2163.72,
+    "duration": 5.119
+  },
+  {
+    "text": "Reasoner by prompt of course you can",
+    "start": 2166.72,
+    "duration": 4.76
+  },
+  {
+    "text": "optimize the prompts by yourself get",
+    "start": 2168.839,
+    "duration": 5.081
+  },
+  {
+    "text": "better results the most important thing",
+    "start": 2171.48,
+    "duration": 6.16
+  },
+  {
+    "text": "here see that um it's much better than",
+    "start": 2173.92,
+    "duration": 6.48
+  },
+  {
+    "text": "just see that's thing step by step",
+    "start": 2177.64,
+    "duration": 6.52
+  },
+  {
+    "text": "that's step step here means Z short z t",
+    "start": 2180.4,
+    "duration": 8.8
+  },
+  {
+    "text": "yeah and even this approach uh out",
+    "start": 2184.16,
+    "duration": 9.159
+  },
+  {
+    "text": "performs manual so",
+    "start": 2189.2,
+    "duration": 6.879
+  },
+  {
+    "text": "here as the main Reas is that you know",
+    "start": 2193.319,
+    "duration": 5.161
+  },
+  {
+    "text": "we use this approach the model",
+    "start": 2196.079,
+    "duration": 6.641
+  },
+  {
+    "text": "automatically generate related questions",
+    "start": 2198.48,
+    "duration": 6.839
+  },
+  {
+    "text": "each different",
+    "start": 2202.72,
+    "duration": 2.599
+  },
+  {
+    "text": "problem this uh results on big bench",
+    "start": 2206.76,
+    "duration": 8.64
+  },
+  {
+    "text": "yeah was great",
+    "start": 2212.52,
+    "duration": 6.04
+  },
+  {
+    "text": "performance and uh",
+    "start": 2215.4,
+    "duration": 5.0
+  },
+  {
+    "text": "the result on",
+    "start": 2218.56,
+    "duration": 4.759
+  },
+  {
+    "text": "fores competive",
+    "start": 2220.4,
+    "duration": 6.12
+  },
+  {
+    "text": "programming yeah if you are interested",
+    "start": 2223.319,
+    "duration": 5.321
+  },
+  {
+    "text": "in competive programming you could try",
+    "start": 2226.52,
+    "duration": 4.64
+  },
+  {
+    "text": "this approach so what we didn't do here",
+    "start": 2228.64,
+    "duration": 3.679
+  },
+  {
+    "text": "is about",
+    "start": 2231.16,
+    "duration": 5.08
+  },
+  {
+    "text": "scaling you can U you can search the web",
+    "start": 2232.319,
+    "duration": 6.0
+  },
+  {
+    "text": "from all the related problems",
+    "start": 2236.24,
+    "duration": 4.56
+  },
+  {
+    "text": "knowledges uh for for the problem you",
+    "start": 2238.319,
+    "duration": 4.481
+  },
+  {
+    "text": "will",
+    "start": 2240.8,
+    "duration": 5.16
+  },
+  {
+    "text": "solve so the key idea here you know",
+    "start": 2242.8,
+    "duration": 6.0
+  },
+  {
+    "text": "thatly generate relevant examples and",
+    "start": 2245.96,
+    "duration": 5.119
+  },
+  {
+    "text": "the knowledge for each given",
+    "start": 2248.8,
+    "duration": 5.559
+  },
+  {
+    "text": "problem instead of using a big set",
+    "start": 2251.079,
+    "duration": 7.841
+  },
+  {
+    "text": "examples as a manual genal",
+    "start": 2254.359,
+    "duration": 4.561
+  },
+  {
+    "text": "prompting okay now we can see that okay",
+    "start": 2260.24,
+    "duration": 7.44
+  },
+  {
+    "text": "we can use few short examples to show",
+    "start": 2264.56,
+    "duration": 5.6
+  },
+  {
+    "text": "the model how to do step by step",
+    "start": 2267.68,
+    "duration": 5.679
+  },
+  {
+    "text": "reason what can do zero",
+    "start": 2270.16,
+    "duration": 6.199
+  },
+  {
+    "text": "short without using any examples just",
+    "start": 2273.359,
+    "duration": 6.121
+  },
+  {
+    "text": "see that's step by",
+    "start": 2276.359,
+    "duration": 6.561
+  },
+  {
+    "text": "step now I could ask another question is",
+    "start": 2279.48,
+    "duration": 5.879
+  },
+  {
+    "text": "it possible to trigger step by step",
+    "start": 2282.92,
+    "duration": 5.88
+  },
+  {
+    "text": "reing even without using any problem",
+    "start": 2285.359,
+    "duration": 6.361
+  },
+  {
+    "text": "that's step by",
+    "start": 2288.8,
+    "duration": 2.92
+  },
+  {
+    "text": "step you could say okay all the models",
+    "start": 2292.96,
+    "duration": 5.32
+  },
+  {
+    "text": "in the count are just like that right",
+    "start": 2295.8,
+    "duration": 4.84
+  },
+  {
+    "text": "you're right but they",
+    "start": 2298.28,
+    "duration": 6.28
+  },
+  {
+    "text": "did or something that means they already",
+    "start": 2300.64,
+    "duration": 8.32
+  },
+  {
+    "text": "used many examples in the data mixture",
+    "start": 2304.56,
+    "duration": 7.44
+  },
+  {
+    "text": "for training or",
+    "start": 2308.96,
+    "duration": 3.04
+  },
+  {
+    "text": "training so yeah we found the answer is",
+    "start": 2315.4,
+    "duration": 8.16
+  },
+  {
+    "text": "yes this in our or World CH of s",
+    "start": 2319.68,
+    "duration": 5.84
+  },
+  {
+    "text": "reasoning without",
+    "start": 2323.56,
+    "duration": 4.24
+  },
+  {
+    "text": "problem without problem that without",
+    "start": 2325.52,
+    "duration": 5.04
+  },
+  {
+    "text": "saying anything just give problem to the",
+    "start": 2327.8,
+    "duration": 4.72
+  },
+  {
+    "text": "model even",
+    "start": 2330.56,
+    "duration": 8.36
+  },
+  {
+    "text": "for for L not",
+    "start": 2332.52,
+    "duration": 6.4
+  },
+  {
+    "text": "so um let's look example",
+    "start": 2339.88,
+    "duration": 4.719
+  },
+  {
+    "text": "here I have three app my dad has two",
+    "start": 2344.72,
+    "duration": 5.92
+  },
+  {
+    "text": "more app than me and how many appers do",
+    "start": 2348.079,
+    "duration": 3.801
+  },
+  {
+    "text": "we have",
+    "start": 2350.64,
+    "duration": 5.32
+  },
+  {
+    "text": "together for this example is",
+    "start": 2351.88,
+    "duration": 4.08
+  },
+  {
+    "text": "see the approach actually is very",
+    "start": 2356.28,
+    "duration": 7.52
+  },
+  {
+    "text": "simple um at decoding at the first step",
+    "start": 2359.359,
+    "duration": 7.76
+  },
+  {
+    "text": "we look at all the pass tokens here at",
+    "start": 2363.8,
+    "duration": 9.16
+  },
+  {
+    "text": "Le to the file tokens here okay so we",
+    "start": 2367.119,
+    "duration": 10.121
+  },
+  {
+    "text": "started the first file tokens and then",
+    "start": 2372.96,
+    "duration": 8.76
+  },
+  {
+    "text": "continue gr decoding okay for the first",
+    "start": 2377.24,
+    "duration": 7.8
+  },
+  {
+    "text": "one is say file app okay the first is a",
+    "start": 2381.72,
+    "duration": 6.0
+  },
+  {
+    "text": "file and the next was",
+    "start": 2385.04,
+    "duration": 10.039
+  },
+  {
+    "text": "F and if use um to to can is I then the",
+    "start": 2387.72,
+    "duration": 11.0
+  },
+  {
+    "text": "four generation will be I have three app",
+    "start": 2395.079,
+    "duration": 6.0
+  },
+  {
+    "text": "my dad has two more appers than me and",
+    "start": 2398.72,
+    "duration": 6.52
+  },
+  {
+    "text": "Sil has five app yeah it's correct yeah",
+    "start": 2401.079,
+    "duration": 7.841
+  },
+  {
+    "text": "and I see that so that's that's very",
+    "start": 2405.24,
+    "duration": 5.96
+  },
+  {
+    "text": "interesting right so we didn't see",
+    "start": 2408.92,
+    "duration": 6.159
+  },
+  {
+    "text": "anything about reason here but the model",
+    "start": 2411.2,
+    "duration": 9.28
+  },
+  {
+    "text": "can do some you started from different",
+    "start": 2415.079,
+    "duration": 5.401
+  },
+  {
+    "text": "tokens here is another example you say",
+    "start": 2421.56,
+    "duration": 7.44
+  },
+  {
+    "text": "okay with Nu close cage Bor in even or",
+    "start": 2425.079,
+    "duration": 6.04
+  },
+  {
+    "text": "all",
+    "start": 2429.0,
+    "duration": 5.359
+  },
+  {
+    "text": "year um the first one say Okay cage was",
+    "start": 2431.119,
+    "duration": 7.401
+  },
+  {
+    "text": "B in all year Nu was the first token and",
+    "start": 2434.359,
+    "duration": 7.121
+  },
+  {
+    "text": "second one that even and then period",
+    "start": 2438.52,
+    "duration": 6.079
+  },
+  {
+    "text": "third one is all then period",
+    "start": 2441.48,
+    "duration": 7.4
+  },
+  {
+    "text": "okay now probably say okay if the you",
+    "start": 2444.599,
+    "duration": 5.72
+  },
+  {
+    "text": "know the",
+    "start": 2448.88,
+    "duration": 5.4
+  },
+  {
+    "text": "model could have had CH SW in their",
+    "start": 2450.319,
+    "duration": 8.921
+  },
+  {
+    "text": "responds the promise how to F it",
+    "start": 2454.28,
+    "duration": 4.96
+  },
+  {
+    "text": "I say okay you can take a longer",
+    "start": 2459.52,
+    "duration": 6.559
+  },
+  {
+    "text": "sentences longer senten means the model",
+    "start": 2463.4,
+    "duration": 5.6
+  },
+  {
+    "text": "could do some readon",
+    "start": 2466.079,
+    "duration": 2.921
+  },
+  {
+    "text": "steps actually a surprising s that to",
+    "start": 2469.24,
+    "duration": 5.8
+  },
+  {
+    "text": "look the",
+    "start": 2473.44,
+    "duration": 7.76
+  },
+  {
+    "text": "probability of the of the token",
+    "start": 2475.04,
+    "duration": 6.16
+  },
+  {
+    "text": "of if you look at the probability on the",
+    "start": 2481.319,
+    "duration": 5.681
+  },
+  {
+    "text": "first roow here a nichos cage was born",
+    "start": 2483.96,
+    "duration": 8.28
+  },
+  {
+    "text": "in order in year and the is quite",
+    "start": 2487.0,
+    "duration": 9.119
+  },
+  {
+    "text": "low and however if you see if there Rec",
+    "start": 2492.24,
+    "duration": 8.359
+  },
+  {
+    "text": "past like the last one uh K was born in",
+    "start": 2496.119,
+    "duration": 7.921
+  },
+  {
+    "text": "1964 and an even year this a reason",
+    "start": 2500.599,
+    "duration": 5.841
+  },
+  {
+    "text": "process here and then probability",
+    "start": 2504.04,
+    "duration": 4.6
+  },
+  {
+    "text": "finally jump",
+    "start": 2506.44,
+    "duration": 5.0
+  },
+  {
+    "text": "to",
+    "start": 2508.64,
+    "duration": 7.0
+  },
+  {
+    "text": "98 that's amazing right it seems that",
+    "start": 2511.44,
+    "duration": 7.399
+  },
+  {
+    "text": "the model is so well calibrated at I was",
+    "start": 2515.64,
+    "duration": 7.199
+  },
+  {
+    "text": "really surprised at seeing those",
+    "start": 2518.839,
+    "duration": 4.0
+  },
+  {
+    "text": "probabilities see that like two the",
+    "start": 2524.16,
+    "duration": 4.959
+  },
+  {
+    "text": "street if say even or old the",
+    "start": 2526.359,
+    "duration": 5.641
+  },
+  {
+    "text": "probabilities are really",
+    "start": 2529.119,
+    "duration": 2.881
+  },
+  {
+    "text": "low so key",
+    "start": 2533.96,
+    "duration": 4.96
+  },
+  {
+    "text": "observ and",
+    "start": 2536.92,
+    "duration": 5.639
+  },
+  {
+    "text": "pre have had responses with step by step",
+    "start": 2538.92,
+    "duration": 7.24
+  },
+  {
+    "text": "reasoning and generations started with",
+    "start": 2542.559,
+    "duration": 5.641
+  },
+  {
+    "text": "the top ke to",
+    "start": 2546.16,
+    "duration": 7.399
+  },
+  {
+    "text": "Cas we don't need use any PRS here not",
+    "start": 2548.2,
+    "duration": 8.72
+  },
+  {
+    "text": "needed and have confidence in decoding",
+    "start": 2553.559,
+    "duration": 5.881
+  },
+  {
+    "text": "the final answer when a step by step",
+    "start": 2556.92,
+    "duration": 5.96
+  },
+  {
+    "text": "reasoning pass is",
+    "start": 2559.44,
+    "duration": 3.44
+  },
+  {
+    "text": "present so here is a compressing between",
+    "start": 2568.079,
+    "duration": 7.641
+  },
+  {
+    "text": "gr decoding and the chn decoding we see",
+    "start": 2571.359,
+    "duration": 10.121
+  },
+  {
+    "text": "that the de coding performance much",
+    "start": 2575.72,
+    "duration": 5.76
+  },
+  {
+    "text": "better yeah so far any question",
+    "start": 2582.559,
+    "duration": 6.76
+  },
+  {
+    "text": "here now let's uh move to the next topic",
+    "start": 2586.119,
+    "duration": 7.041
+  },
+  {
+    "text": "right generating intermediate steps are",
+    "start": 2589.319,
+    "duration": 9.641
+  },
+  {
+    "text": "helpful even really helpful you know",
+    "start": 2593.16,
+    "duration": 10.8
+  },
+  {
+    "text": "but any can on Genera sets instead of",
+    "start": 2598.96,
+    "duration": 6.359
+  },
+  {
+    "text": "direct",
+    "start": 2603.96,
+    "duration": 5.159
+  },
+  {
+    "text": "answers any concerns",
+    "start": 2605.319,
+    "duration": 3.8
+  },
+  {
+    "text": "[Music]",
+    "start": 2612.22,
+    "duration": 3.11
+  },
+  {
+    "text": "yeah so probably all say depends on your",
+    "start": 2621.64,
+    "duration": 8.4
+  },
+  {
+    "text": "problem your need",
+    "start": 2626.16,
+    "duration": 3.88
+  },
+  {
+    "text": "yeah so actually in the C days you know",
+    "start": 2631.92,
+    "duration": 8.32
+  },
+  {
+    "text": "we need to always keep in",
+    "start": 2637.16,
+    "duration": 9.04
+  },
+  {
+    "text": "mind that LMS are PR mods of generating",
+    "start": 2640.24,
+    "duration": 7.68
+  },
+  {
+    "text": "next",
+    "start": 2646.2,
+    "duration": 5.32
+  },
+  {
+    "text": "tokens they are not",
+    "start": 2647.92,
+    "duration": 3.6
+  },
+  {
+    "text": "humans no matter if I use a key examples",
+    "start": 2651.96,
+    "duration": 6.879
+  },
+  {
+    "text": "or not keep this in",
+    "start": 2654.88,
+    "duration": 3.959
+  },
+  {
+    "text": "mind so it's a PR model so that's see",
+    "start": 2660.88,
+    "duration": 7.719
+  },
+  {
+    "text": "what LM does in deod",
+    "start": 2665.44,
+    "duration": 5.24
+  },
+  {
+    "text": "so it's actually",
+    "start": 2668.599,
+    "duration": 4.161
+  },
+  {
+    "text": "ARX",
+    "start": 2670.68,
+    "duration": 5.2
+  },
+  {
+    "text": "probability of reasoning pass and The",
+    "start": 2672.76,
+    "duration": 7.44
+  },
+  {
+    "text": "Final Answer here the",
+    "start": 2675.88,
+    "duration": 4.32
+  },
+  {
+    "text": "problem however what we want is",
+    "start": 2682.119,
+    "duration": 8.48
+  },
+  {
+    "text": "ARX probability Final Answer given",
+    "start": 2686.2,
+    "duration": 8.48
+  },
+  {
+    "text": "problem right that's what we learned in",
+    "start": 2690.599,
+    "duration": 5.441
+  },
+  {
+    "text": "machine",
+    "start": 2694.68,
+    "duration": 4.159
+  },
+  {
+    "text": "learning this doesn't mean WR pass is",
+    "start": 2696.04,
+    "duration": 4.279
+  },
+  {
+    "text": "not",
+    "start": 2698.839,
+    "duration": 4.24
+  },
+  {
+    "text": "important but I just say final answer we",
+    "start": 2700.319,
+    "duration": 4.401
+  },
+  {
+    "text": "have to make sure final answer is",
+    "start": 2703.079,
+    "duration": 5.721
+  },
+  {
+    "text": "correct and then look at the Reas",
+    "start": 2704.72,
+    "duration": 4.08
+  },
+  {
+    "text": "pass they are not aligned right the two",
+    "start": 2710.28,
+    "duration": 6.92
+  },
+  {
+    "text": "different",
+    "start": 2714.2,
+    "duration": 3.0
+  },
+  {
+    "text": "objective",
+    "start": 2719.64,
+    "duration": 6.16
+  },
+  {
+    "text": "okay now let's look one step further",
+    "start": 2721.92,
+    "duration": 5.84
+  },
+  {
+    "text": "okay",
+    "start": 2725.8,
+    "duration": 5.799
+  },
+  {
+    "text": "the probability of find answer given the",
+    "start": 2727.76,
+    "duration": 5.839
+  },
+  {
+    "text": "problem for the",
+    "start": 2731.599,
+    "duration": 5.48
+  },
+  {
+    "text": "computer which should sum over all",
+    "start": 2733.599,
+    "duration": 6.601
+  },
+  {
+    "text": "possible reason",
+    "start": 2737.079,
+    "duration": 3.121
+  },
+  {
+    "text": "parts that's uh that's how is computed",
+    "start": 2741.079,
+    "duration": 6.841
+  },
+  {
+    "text": "from our",
+    "start": 2746.0,
+    "duration": 5.48
+  },
+  {
+    "text": "course will learn right so given Mass",
+    "start": 2747.92,
+    "duration": 6.199
+  },
+  {
+    "text": "problem you could found different",
+    "start": 2751.48,
+    "duration": 6.16
+  },
+  {
+    "text": "solutions which lead to the same answer",
+    "start": 2754.119,
+    "duration": 5.761
+  },
+  {
+    "text": "yeah we need that we need to do the",
+    "start": 2757.64,
+    "duration": 4.919
+  },
+  {
+    "text": "summation",
+    "start": 2759.88,
+    "duration": 2.679
+  },
+  {
+    "text": "here and then okay how to compute",
+    "start": 2762.839,
+    "duration": 6.081
+  },
+  {
+    "text": "side if you started machine learning you",
+    "start": 2770.079,
+    "duration": 9.48
+  },
+  {
+    "text": "know answer here right simply so simple",
+    "start": 2772.8,
+    "duration": 11.48
+  },
+  {
+    "text": "okay now uh this du to our work self",
+    "start": 2779.559,
+    "duration": 9.0
+  },
+  {
+    "text": "consy probably many people have no self",
+    "start": 2784.28,
+    "duration": 6.76
+  },
+  {
+    "text": "consy but my talk here is I really want",
+    "start": 2788.559,
+    "duration": 5.56
+  },
+  {
+    "text": "to let you see the underly",
+    "start": 2791.04,
+    "duration": 5.76
+  },
+  {
+    "text": "motivation how we approach this problem",
+    "start": 2794.119,
+    "duration": 6.321
+  },
+  {
+    "text": "from the first principle you",
+    "start": 2796.8,
+    "duration": 3.64
+  },
+  {
+    "text": "learning so let's look the question here",
+    "start": 2802.28,
+    "duration": 6.72
+  },
+  {
+    "text": "okay give this math problem and you",
+    "start": 2805.04,
+    "duration": 7.76
+  },
+  {
+    "text": "could sample the answer multiple times",
+    "start": 2809.0,
+    "duration": 7.24
+  },
+  {
+    "text": "yeah again and then finally you see okay",
+    "start": 2812.8,
+    "duration": 6.24
+  },
+  {
+    "text": "the most frequent answer is",
+    "start": 2816.24,
+    "duration": 8.839
+  },
+  {
+    "text": "18 okay what will give one here is not",
+    "start": 2819.04,
+    "duration": 8.0
+  },
+  {
+    "text": "most frequent reason",
+    "start": 2825.079,
+    "duration": 5.48
+  },
+  {
+    "text": "pass we choose most frequent",
+    "start": 2827.04,
+    "duration": 6.039
+  },
+  {
+    "text": "answer that's huge",
+    "start": 2830.559,
+    "duration": 8.56
+  },
+  {
+    "text": "difference Rec pass here is lat",
+    "start": 2833.079,
+    "duration": 6.04
+  },
+  {
+    "text": "varable this idea is so",
+    "start": 2841.559,
+    "duration": 6.161
+  },
+  {
+    "text": "simple by by using",
+    "start": 2844.44,
+    "duration": 7.399
+  },
+  {
+    "text": "self consistency we simply Crush solar",
+    "start": 2847.72,
+    "duration": 8.399
+  },
+  {
+    "text": "results in the literature that",
+    "start": 2851.839,
+    "duration": 4.28
+  },
+  {
+    "text": "time and see that in doing",
+    "start": 2856.559,
+    "duration": 5.0
+  },
+  {
+    "text": "research we don't",
+    "start": 2859.48,
+    "duration": 4.96
+  },
+  {
+    "text": "need we we can you know it's really just",
+    "start": 2861.559,
+    "duration": 5.8
+  },
+  {
+    "text": "about your idea you don't have to have",
+    "start": 2864.44,
+    "duration": 5.84
+  },
+  {
+    "text": "to know a lot of",
+    "start": 2867.359,
+    "duration": 2.921
+  },
+  {
+    "text": "sense and of course you know give our",
+    "start": 2873.559,
+    "duration": 5.321
+  },
+  {
+    "text": "explanation on self consistency is about",
+    "start": 2876.079,
+    "duration": 5.561
+  },
+  {
+    "text": "probability it's about samp so imagine",
+    "start": 2878.88,
+    "duration": 6.0
+  },
+  {
+    "text": "that more consistent results more likely",
+    "start": 2881.64,
+    "duration": 6.0
+  },
+  {
+    "text": "to be crack when you look at the curves",
+    "start": 2884.88,
+    "duration": 5.8
+  },
+  {
+    "text": "here if the consistency is more than",
+    "start": 2887.64,
+    "duration": 11.479
+  },
+  {
+    "text": "80% then the I the uh accuracy is nearly",
+    "start": 2890.68,
+    "duration": 8.439
+  },
+  {
+    "text": "100%",
+    "start": 2903.76,
+    "duration": 4.96
+  },
+  {
+    "text": "here okay",
+    "start": 2905.4,
+    "duration": 8.439
+  },
+  {
+    "text": "so when the outputs a direct answer",
+    "start": 2908.72,
+    "duration": 7.16
+  },
+  {
+    "text": "without intermediate",
+    "start": 2913.839,
+    "duration": 5.76
+  },
+  {
+    "text": "steps we use the sample several times",
+    "start": 2915.88,
+    "duration": 7.439
+  },
+  {
+    "text": "and then choose the most common",
+    "start": 2919.599,
+    "duration": 7.96
+  },
+  {
+    "text": "answer anyone like answer",
+    "start": 2923.319,
+    "duration": 4.24
+  },
+  {
+    "text": "here yeah",
+    "start": 2932.76,
+    "duration": 4.0
+  },
+  {
+    "text": "okay great yeah one token okay that's",
+    "start": 2942.72,
+    "duration": 6.68
+  },
+  {
+    "text": "already the the the token with maximum",
+    "start": 2945.92,
+    "duration": 7.0
+  },
+  {
+    "text": "probability yeah",
+    "start": 2949.4,
+    "duration": 6.36
+  },
+  {
+    "text": "Al and for the second",
+    "start": 2952.92,
+    "duration": 4.399
+  },
+  {
+    "text": "question",
+    "start": 2955.76,
+    "duration": 7.44
+  },
+  {
+    "text": "and change S consen by La LM generate",
+    "start": 2957.319,
+    "duration": 7.52
+  },
+  {
+    "text": "multiple",
+    "start": 2963.2,
+    "duration": 4.76
+  },
+  {
+    "text": "responses instead of sampling multiple",
+    "start": 2964.839,
+    "duration": 6.96
+  },
+  {
+    "text": "ttimes and then choosing the most common",
+    "start": 2967.96,
+    "duration": 6.599
+  },
+  {
+    "text": "answer does this make",
+    "start": 2971.799,
+    "duration": 6.361
+  },
+  {
+    "text": "sense yeah",
+    "start": 2974.559,
+    "duration": 3.601
+  },
+  {
+    "text": "no great yeah that is",
+    "start": 2979.64,
+    "duration": 6.08
+  },
+  {
+    "text": "no and for both answers we just need to",
+    "start": 2983.04,
+    "duration": 6.36
+  },
+  {
+    "text": "follow this principle I Max probability",
+    "start": 2985.72,
+    "duration": 6.079
+  },
+  {
+    "text": "to find answer given problem that's all",
+    "start": 2989.4,
+    "duration": 5.12
+  },
+  {
+    "text": "you need to understand self consistency",
+    "start": 2991.799,
+    "duration": 5.32
+  },
+  {
+    "text": "is a very very simple principle was the",
+    "start": 2994.52,
+    "duration": 5.799
+  },
+  {
+    "text": "first one of the first principles in",
+    "start": 2997.119,
+    "duration": 6.761
+  },
+  {
+    "text": "machine if you know more probably know",
+    "start": 3000.319,
+    "duration": 8.641
+  },
+  {
+    "text": "okay this this maximum marginal",
+    "start": 3003.88,
+    "duration": 5.08
+  },
+  {
+    "text": "inference okay so one okay how about",
+    "start": 3011.2,
+    "duration": 5.639
+  },
+  {
+    "text": "free form",
+    "start": 3015.2,
+    "duration": 4.32
+  },
+  {
+    "text": "answers um",
+    "start": 3016.839,
+    "duration": 7.801
+  },
+  {
+    "text": "is uh Universal s",
+    "start": 3019.52,
+    "duration": 8.48
+  },
+  {
+    "text": "see here",
+    "start": 3024.64,
+    "duration": 6.64
+  },
+  {
+    "text": "so this idea is a little bit different",
+    "start": 3028.0,
+    "duration": 7.079
+  },
+  {
+    "text": "uh but relation I put here and given",
+    "start": 3031.28,
+    "duration": 6.079
+  },
+  {
+    "text": "this problem where do people drink less",
+    "start": 3035.079,
+    "duration": 5.881
+  },
+  {
+    "text": "coffee than they do in Mexico now if you",
+    "start": 3037.359,
+    "duration": 4.96
+  },
+  {
+    "text": "look the",
+    "start": 3040.96,
+    "duration": 4.24
+  },
+  {
+    "text": "answers and each answer is different",
+    "start": 3042.319,
+    "duration": 6.921
+  },
+  {
+    "text": "from others but the most common response",
+    "start": 3045.2,
+    "duration": 10.2
+  },
+  {
+    "text": "is to here Japan China and India",
+    "start": 3049.24,
+    "duration": 6.16
+  },
+  {
+    "text": "um any question otherwise we could move",
+    "start": 3059.04,
+    "duration": 6.079
+  },
+  {
+    "text": "to the next section",
+    "start": 3062.76,
+    "duration": 5.359
+  },
+  {
+    "text": "okay",
+    "start": 3065.119,
+    "duration": 3.0
+  },
+  {
+    "text": "yeah self consy oh sample your answer",
+    "start": 3072.599,
+    "duration": 6.0
+  },
+  {
+    "text": "multiple times and then chose the most",
+    "start": 3076.2,
+    "duration": 5.08
+  },
+  {
+    "text": "um frequent answer",
+    "start": 3078.599,
+    "duration": 6.681
+  },
+  {
+    "text": "as yeah",
+    "start": 3081.28,
+    "duration": 4.0
+  },
+  {
+    "text": "and next I'm going talk about",
+    "start": 3087.88,
+    "duration": 3.64
+  },
+  {
+    "text": "limitations the first one I talk about",
+    "start": 3096.24,
+    "duration": 9.04
+  },
+  {
+    "text": "LS can be easily distracted by",
+    "start": 3099.48,
+    "duration": 5.8
+  },
+  {
+    "text": "context from psychology studies you know",
+    "start": 3107.64,
+    "duration": 6.76
+  },
+  {
+    "text": "um re",
+    "start": 3112.52,
+    "duration": 4.96
+  },
+  {
+    "text": "information May significantly decrease",
+    "start": 3114.4,
+    "duration": 6.08
+  },
+  {
+    "text": "some children and even adults problem",
+    "start": 3117.48,
+    "duration": 4.319
+  },
+  {
+    "text": "solving",
+    "start": 3120.48,
+    "duration": 3.839
+  },
+  {
+    "text": "accuracy so I want to check if this",
+    "start": 3121.799,
+    "duration": 5.76
+  },
+  {
+    "text": "observation code",
+    "start": 3124.319,
+    "duration": 3.24
+  },
+  {
+    "text": "for so this is a simple problem",
+    "start": 3129.0,
+    "duration": 5.599
+  },
+  {
+    "text": "here",
+    "start": 3133.079,
+    "duration": 4.321
+  },
+  {
+    "text": "um the highlighted",
+    "start": 3134.599,
+    "duration": 7.561
+  },
+  {
+    "text": "text is manually added so Mario's M",
+    "start": 3137.4,
+    "duration": 5.84
+  },
+  {
+    "text": "which is",
+    "start": 3142.16,
+    "duration": 5.399
+  },
+  {
+    "text": "$10 is Rel for the original problem",
+    "start": 3143.24,
+    "duration": 9.359
+  },
+  {
+    "text": "but I see after that the the model made",
+    "start": 3147.559,
+    "duration": 9.921
+  },
+  {
+    "text": "a wrong uh solution",
+    "start": 3152.599,
+    "duration": 4.881
+  },
+  {
+    "text": "here so",
+    "start": 3157.839,
+    "duration": 5.841
+  },
+  {
+    "text": "um actually interes that",
+    "start": 3160.72,
+    "duration": 10.2
+  },
+  {
+    "text": "okay if we add a PR like ignore EV",
+    "start": 3163.68,
+    "duration": 11.0
+  },
+  {
+    "text": "context and the model immedately notice",
+    "start": 3170.92,
+    "duration": 8.879
+  },
+  {
+    "text": "that and make a correct",
+    "start": 3174.68,
+    "duration": 5.119
+  },
+  {
+    "text": "one but it's still hard to take back if",
+    "start": 3180.68,
+    "duration": 7.6
+  },
+  {
+    "text": "we make the problem make contents op big",
+    "start": 3184.24,
+    "duration": 6.319
+  },
+  {
+    "text": "so even we can simply just add",
+    "start": 3188.28,
+    "duration": 5.72
+  },
+  {
+    "text": "development synes like the sky is blue",
+    "start": 3190.559,
+    "duration": 6.0
+  },
+  {
+    "text": "and the the grass is green or something",
+    "start": 3194.0,
+    "duration": 4.88
+  },
+  {
+    "text": "you know those mountains you can make",
+    "start": 3196.559,
+    "duration": 6.961
+  },
+  {
+    "text": "this uh input up along you will see a",
+    "start": 3198.88,
+    "duration": 10.28
+  },
+  {
+    "text": "significant performance draw across or",
+    "start": 3203.52,
+    "duration": 5.64
+  },
+  {
+    "text": "L the next limitation I'm going to talk",
+    "start": 3211.599,
+    "duration": 8.321
+  },
+  {
+    "text": "about LMS cannot self correct Reon",
+    "start": 3214.079,
+    "duration": 5.841
+  },
+  {
+    "text": "yet let's start from a math problem",
+    "start": 3221.079,
+    "duration": 7.641
+  },
+  {
+    "text": "again and actually this problem is a",
+    "start": 3225.799,
+    "duration": 6.28
+  },
+  {
+    "text": "little bit tricky you look",
+    "start": 3228.72,
+    "duration": 8.119
+  },
+  {
+    "text": "at and uh you see that the model um give",
+    "start": 3232.079,
+    "duration": 6.841
+  },
+  {
+    "text": "a wrong",
+    "start": 3236.839,
+    "duration": 6.72
+  },
+  {
+    "text": "answer and then we uh from to the model",
+    "start": 3238.92,
+    "duration": 8.399
+  },
+  {
+    "text": "with review your previous answer and",
+    "start": 3243.559,
+    "duration": 4.881
+  },
+  {
+    "text": "found",
+    "start": 3247.319,
+    "duration": 6.76
+  },
+  {
+    "text": "problems with your answer okay and",
+    "start": 3248.44,
+    "duration": 9.72
+  },
+  {
+    "text": "interestingly after reviewing the model",
+    "start": 3254.079,
+    "duration": 6.04
+  },
+  {
+    "text": "re recognize the",
+    "start": 3258.16,
+    "duration": 5.52
+  },
+  {
+    "text": "mistake and uh proactive",
+    "start": 3260.119,
+    "duration": 7.521
+  },
+  {
+    "text": "design this looks something right you",
+    "start": 3263.68,
+    "duration": 6.48
+  },
+  {
+    "text": "see and then we see another problem",
+    "start": 3267.64,
+    "duration": 5.88
+  },
+  {
+    "text": "based on the problem you find improve",
+    "start": 3270.16,
+    "duration": 4.72
+  },
+  {
+    "text": "your",
+    "start": 3273.52,
+    "duration": 5.64
+  },
+  {
+    "text": "answer and The Final Answer here is",
+    "start": 3274.88,
+    "duration": 4.28
+  },
+  {
+    "text": "correct if the or is correct we do the",
+    "start": 3286.64,
+    "duration": 6.0
+  },
+  {
+    "text": "same",
+    "start": 3291.4,
+    "duration": 6.159
+  },
+  {
+    "text": "prompt the mod could have made mistake",
+    "start": 3292.64,
+    "duration": 4.919
+  },
+  {
+    "text": "that's the",
+    "start": 3298.359,
+    "duration": 2.48
+  },
+  {
+    "text": "problem",
+    "start": 3301.119,
+    "duration": 5.401
+  },
+  {
+    "text": "so overall when allowing a to review",
+    "start": 3302.64,
+    "duration": 6.4
+  },
+  {
+    "text": "their generated response can help",
+    "start": 3306.52,
+    "duration": 5.48
+  },
+  {
+    "text": "correct inacurate",
+    "start": 3309.04,
+    "duration": 5.559
+  },
+  {
+    "text": "answers it may also risk changing",
+    "start": 3312.0,
+    "duration": 6.799
+  },
+  {
+    "text": "correct answers into incorrect",
+    "start": 3314.599,
+    "duration": 4.2
+  },
+  {
+    "text": "ones we run extensive studies on um on",
+    "start": 3319.68,
+    "duration": 10.639
+  },
+  {
+    "text": "some benchmarks like GSM commiss QA and",
+    "start": 3324.92,
+    "duration": 9.0
+  },
+  {
+    "text": "QA and we didn't notice any",
+    "start": 3330.319,
+    "duration": 7.04
+  },
+  {
+    "text": "improvements from self- correction",
+    "start": 3333.92,
+    "duration": 7.399
+  },
+  {
+    "text": "methods they just makes sense",
+    "start": 3337.359,
+    "duration": 3.96
+  },
+  {
+    "text": "worse um prob you supp some improvement",
+    "start": 3344.0,
+    "duration": 6.079
+  },
+  {
+    "text": "from the literature you know they they",
+    "start": 3347.88,
+    "duration": 5.52
+  },
+  {
+    "text": "said at Improvement",
+    "start": 3350.079,
+    "duration": 6.76
+  },
+  {
+    "text": "reasoning and actually they use",
+    "start": 3353.4,
+    "duration": 5.76
+  },
+  {
+    "text": "Oracle answers you can see the Oracle",
+    "start": 3356.839,
+    "duration": 7.561
+  },
+  {
+    "text": "here Oracle means you only prompt LMS to",
+    "start": 3359.16,
+    "duration": 7.679
+  },
+  {
+    "text": "correct the answer when the answer is",
+    "start": 3364.4,
+    "duration": 5.04
+  },
+  {
+    "text": "wrong the problem is the model doesn't",
+    "start": 3366.839,
+    "duration": 7.72
+  },
+  {
+    "text": "know if the answer is correct or wrong",
+    "start": 3369.44,
+    "duration": 8.119
+  },
+  {
+    "text": "your",
+    "start": 3374.559,
+    "duration": 3.0
+  },
+  {
+    "text": "wrong and also this Rel to multi agent",
+    "start": 3380.4,
+    "duration": 8.52
+  },
+  {
+    "text": "debate the Y could could use multiple a",
+    "start": 3384.359,
+    "duration": 8.121
+  },
+  {
+    "text": "debate each other and to uh to achieve",
+    "start": 3388.92,
+    "duration": 5.679
+  },
+  {
+    "text": "agreement or",
+    "start": 3392.48,
+    "duration": 5.04
+  },
+  {
+    "text": "consensus and also with try this",
+    "start": 3394.599,
+    "duration": 7.321
+  },
+  {
+    "text": "approach know we uh we find out actually",
+    "start": 3397.52,
+    "duration": 8.12
+  },
+  {
+    "text": "the trick is how many response are",
+    "start": 3401.92,
+    "duration": 7.6
+  },
+  {
+    "text": "generated for example if we have",
+    "start": 3405.64,
+    "duration": 7.159
+  },
+  {
+    "text": "three and if let everyone generate a",
+    "start": 3409.52,
+    "duration": 5.88
+  },
+  {
+    "text": "response that will be three if let",
+    "start": 3412.799,
+    "duration": 5.201
+  },
+  {
+    "text": "debate that that re on that will be n",
+    "start": 3415.4,
+    "duration": 6.08
+  },
+  {
+    "text": "response together so how part just to S",
+    "start": 3418.0,
+    "duration": 6.119
+  },
+  {
+    "text": "consistency with n response and see what",
+    "start": 3421.48,
+    "duration": 6.4
+  },
+  {
+    "text": "happened we find that those approaches",
+    "start": 3424.119,
+    "duration": 7.521
+  },
+  {
+    "text": "cannot outperform self consistency self",
+    "start": 3427.88,
+    "duration": 7.919
+  },
+  {
+    "text": "is might simple simple times and take",
+    "start": 3431.64,
+    "duration": 9.36
+  },
+  {
+    "text": "the most frequent answer as final",
+    "start": 3435.799,
+    "duration": 7.721
+  },
+  {
+    "text": "prediction so the lesson we learn here",
+    "start": 3441.0,
+    "duration": 7.359
+  },
+  {
+    "text": "is oral feedback is needed for a to self",
+    "start": 3443.52,
+    "duration": 8.92
+  },
+  {
+    "text": "correct if so that we our work is self",
+    "start": 3448.359,
+    "duration": 7.76
+  },
+  {
+    "text": "depar self depar naturally leverage unit",
+    "start": 3452.44,
+    "duration": 7.399
+  },
+  {
+    "text": "test as Oracle you coding problems you",
+    "start": 3456.119,
+    "duration": 7.761
+  },
+  {
+    "text": "can natur have unit test",
+    "start": 3459.839,
+    "duration": 4.041
+  },
+  {
+    "text": "track actually we started this work",
+    "start": 3464.76,
+    "duration": 6.88
+  },
+  {
+    "text": "quite early and we didn't make make a",
+    "start": 3467.44,
+    "duration": 8.32
+  },
+  {
+    "text": "and then finally we move to the",
+    "start": 3471.64,
+    "duration": 4.12
+  },
+  {
+    "text": "and the last lastation I want talk about",
+    "start": 3477.2,
+    "duration": 7.359
+  },
+  {
+    "text": "the premise order matters in",
+    "start": 3480.119,
+    "duration": 4.44
+  },
+  {
+    "text": "reging so um you know in the C B where",
+    "start": 3487.799,
+    "duration": 6.04
+  },
+  {
+    "text": "every time we show T reports from",
+    "start": 3491.28,
+    "duration": 5.24
+  },
+  {
+    "text": "archive or to somewhere and the people",
+    "start": 3493.839,
+    "duration": 5.28
+  },
+  {
+    "text": "will show great results for example",
+    "start": 3496.52,
+    "duration": 6.68
+  },
+  {
+    "text": "recently model could be FL and result",
+    "start": 3499.119,
+    "duration": 9.281
+  },
+  {
+    "text": "onk and I I have to tr those",
+    "start": 3503.2,
+    "duration": 8.2
+  },
+  {
+    "text": "numbers in the C the model Trend was all",
+    "start": 3508.4,
+    "duration": 6.159
+  },
+  {
+    "text": "data from internet there already some",
+    "start": 3511.4,
+    "duration": 5.84
+  },
+  {
+    "text": "problems so one of",
+    "start": 3514.559,
+    "duration": 5.8
+  },
+  {
+    "text": "um working on my team is to generate",
+    "start": 3517.24,
+    "duration": 9.079
+  },
+  {
+    "text": "different Evol tasks so to to test the",
+    "start": 3520.359,
+    "duration": 9.561
+  },
+  {
+    "text": "models so that here here we just did a",
+    "start": 3526.319,
+    "duration": 7.04
+  },
+  {
+    "text": "simple check we are given this original",
+    "start": 3529.92,
+    "duration": 6.32
+  },
+  {
+    "text": "gsmk problem",
+    "start": 3533.359,
+    "duration": 5.2
+  },
+  {
+    "text": "we U",
+    "start": 3536.24,
+    "duration": 4.079
+  },
+  {
+    "text": "reorder the",
+    "start": 3538.559,
+    "duration": 4.56
+  },
+  {
+    "text": "sentence a little bit and see if the",
+    "start": 3540.319,
+    "duration": 7.28
+  },
+  {
+    "text": "model can solve it so here know in this",
+    "start": 3543.119,
+    "duration": 8.161
+  },
+  {
+    "text": "in the OR problem he loses 10 beers",
+    "start": 3547.599,
+    "duration": 4.921
+  },
+  {
+    "text": "while getting",
+    "start": 3551.28,
+    "duration": 4.44
+  },
+  {
+    "text": "home and we could you know just",
+    "start": 3552.52,
+    "duration": 7.559
+  },
+  {
+    "text": "uh move this sentence to to the to the",
+    "start": 3555.72,
+    "duration": 7.44
+  },
+  {
+    "text": "end and see what",
+    "start": 3560.079,
+    "duration": 6.04
+  },
+  {
+    "text": "happened we just did some change for",
+    "start": 3563.16,
+    "duration": 4.28
+  },
+  {
+    "text": "some JK",
+    "start": 3566.119,
+    "duration": 4.361
+  },
+  {
+    "text": "problems and we notice that there are",
+    "start": 3567.44,
+    "duration": 7.2
+  },
+  {
+    "text": "about 10 points drop on solving R across",
+    "start": 3570.48,
+    "duration": 6.76
+  },
+  {
+    "text": "all from",
+    "start": 3574.64,
+    "duration": 2.6
+  },
+  {
+    "text": "TM so here the response here can look",
+    "start": 3579.359,
+    "duration": 7.521
+  },
+  {
+    "text": "compare response for the problem for or",
+    "start": 3584.16,
+    "duration": 6.04
+  },
+  {
+    "text": "problem and theorder the",
+    "start": 3586.88,
+    "duration": 5.8
+  },
+  {
+    "text": "problem so",
+    "start": 3590.2,
+    "duration": 6.48
+  },
+  {
+    "text": "um you see that the model actually just",
+    "start": 3592.68,
+    "duration": 7.28
+  },
+  {
+    "text": "the model just know how to solve the",
+    "start": 3596.68,
+    "duration": 5.8
+  },
+  {
+    "text": "problem sequentially they couldn't go",
+    "start": 3599.96,
+    "duration": 5.0
+  },
+  {
+    "text": "back and",
+    "start": 3602.48,
+    "duration": 2.48
+  },
+  {
+    "text": "forth and one could say okay that may",
+    "start": 3609.2,
+    "duration": 5.359
+  },
+  {
+    "text": "related to some semantic understanding",
+    "start": 3612.319,
+    "duration": 6.28
+  },
+  {
+    "text": "about reason okay then we design another",
+    "start": 3614.559,
+    "duration": 6.841
+  },
+  {
+    "text": "another task logical",
+    "start": 3618.599,
+    "duration": 6.881
+  },
+  {
+    "text": "inference is is more pure than the mass",
+    "start": 3621.4,
+    "duration": 5.399
+  },
+  {
+    "text": "problems",
+    "start": 3625.48,
+    "duration": 4.76
+  },
+  {
+    "text": "yes say B if if then if then if then",
+    "start": 3626.799,
+    "duration": 6.601
+  },
+  {
+    "text": "right even even we don't use real real",
+    "start": 3630.24,
+    "duration": 7.359
+  },
+  {
+    "text": "words we just use a random uh random um",
+    "start": 3633.4,
+    "duration": 6.88
+  },
+  {
+    "text": "tokens",
+    "start": 3637.599,
+    "duration": 2.681
+  },
+  {
+    "text": "here and given the rules and the",
+    "start": 3640.599,
+    "duration": 7.52
+  },
+  {
+    "text": "facts and then model inference logical",
+    "start": 3643.76,
+    "duration": 5.799
+  },
+  {
+    "text": "inference in the",
+    "start": 3648.119,
+    "duration": 5.081
+  },
+  {
+    "text": "query and the rules for the original",
+    "start": 3649.559,
+    "duration": 7.24
+  },
+  {
+    "text": "problem the rules are order according to",
+    "start": 3653.2,
+    "duration": 6.599
+  },
+  {
+    "text": "the use in the inference",
+    "start": 3656.799,
+    "duration": 7.201
+  },
+  {
+    "text": "process but I I uh point out not all",
+    "start": 3659.799,
+    "duration": 8.641
+  },
+  {
+    "text": "rules are necessary for the",
+    "start": 3664.0,
+    "duration": 4.44
+  },
+  {
+    "text": "query and another way you know we could",
+    "start": 3670.0,
+    "duration": 3.68
+  },
+  {
+    "text": "just",
+    "start": 3672.52,
+    "duration": 4.92
+  },
+  {
+    "text": "randomly order those",
+    "start": 3673.68,
+    "duration": 7.32
+  },
+  {
+    "text": "rules okay I only only random order",
+    "start": 3677.44,
+    "duration": 8.119
+  },
+  {
+    "text": "rules relevant for query if not relevant",
+    "start": 3681.0,
+    "duration": 5.599
+  },
+  {
+    "text": "for query",
+    "start": 3685.559,
+    "duration": 3.361
+  },
+  {
+    "text": "they just keep",
+    "start": 3686.599,
+    "duration": 5.24
+  },
+  {
+    "text": "the",
+    "start": 3688.92,
+    "duration": 7.48
+  },
+  {
+    "text": "positions and surprising was then we saw",
+    "start": 3691.839,
+    "duration": 10.211
+  },
+  {
+    "text": "City Plus points per draw across all",
+    "start": 3696.4,
+    "duration": 8.709
+  },
+  {
+    "text": "[Music]",
+    "start": 3702.05,
+    "duration": 3.059
+  },
+  {
+    "text": "Frontier",
+    "start": 3708.92,
+    "duration": 5.32
+  },
+  {
+    "text": "um from my personal experience I think",
+    "start": 3710.68,
+    "duration": 6.359
+  },
+  {
+    "text": "it's really important",
+    "start": 3714.24,
+    "duration": 5.079
+  },
+  {
+    "text": "to design",
+    "start": 3717.039,
+    "duration": 5.8
+  },
+  {
+    "text": "experiments when doing a own research so",
+    "start": 3719.319,
+    "duration": 6.321
+  },
+  {
+    "text": "this just like a",
+    "start": 3722.839,
+    "duration": 2.801
+  },
+  {
+    "text": "depart",
+    "start": 3726.76,
+    "duration": 5.599
+  },
+  {
+    "text": "okay now uh let me summarize the talk",
+    "start": 3728.44,
+    "duration": 7.44
+  },
+  {
+    "text": "here so um the first thing I talk about",
+    "start": 3732.359,
+    "duration": 7.0
+  },
+  {
+    "text": "is generating intermediate steps",
+    "start": 3735.88,
+    "duration": 5.28
+  },
+  {
+    "text": "improves",
+    "start": 3739.359,
+    "duration": 5.24
+  },
+  {
+    "text": "performance lot and you can do training",
+    "start": 3741.16,
+    "duration": 6.28
+  },
+  {
+    "text": "F PR with intermediate",
+    "start": 3744.599,
+    "duration": 6.041
+  },
+  {
+    "text": "steps but you can do also do Z SH",
+    "start": 3747.44,
+    "duration": 6.119
+  },
+  {
+    "text": "analogical reson or some kind of special",
+    "start": 3750.64,
+    "duration": 7.679
+  },
+  {
+    "text": "decoding like 7 deing I presented",
+    "start": 3753.559,
+    "duration": 9.0
+  },
+  {
+    "text": "today and also self consistency great",
+    "start": 3758.319,
+    "duration": 7.161
+  },
+  {
+    "text": "improves step by step reasoning no",
+    "start": 3762.559,
+    "duration": 3.961
+  },
+  {
+    "text": "matter",
+    "start": 3765.48,
+    "duration": 6.079
+  },
+  {
+    "text": "your from from F model or from",
+    "start": 3766.52,
+    "duration": 8.36
+  },
+  {
+    "text": "F and I also a lot of limitations you",
+    "start": 3771.559,
+    "duration": 5.841
+  },
+  {
+    "text": "know like you have context self",
+    "start": 3774.88,
+    "duration": 4.88
+  },
+  {
+    "text": "correction and the prise order all those",
+    "start": 3777.4,
+    "duration": 5.52
+  },
+  {
+    "text": "are matters for Reon",
+    "start": 3779.76,
+    "duration": 3.16
+  },
+  {
+    "text": "performance so when",
+    "start": 3787.4,
+    "duration": 6.51
+  },
+  {
+    "text": "I next what problem right",
+    "start": 3789.48,
+    "duration": 6.599
+  },
+  {
+    "text": "[Music]",
+    "start": 3793.91,
+    "duration": 5.81
+  },
+  {
+    "text": "and I the most important here is you",
+    "start": 3796.079,
+    "duration": 7.841
+  },
+  {
+    "text": "know I see we work on something we put",
+    "start": 3799.72,
+    "duration": 7.48
+  },
+  {
+    "text": "work on ai ai that's not problem the",
+    "start": 3803.92,
+    "duration": 5.96
+  },
+  {
+    "text": "problem is Define a right problem work",
+    "start": 3807.2,
+    "duration": 6.28
+  },
+  {
+    "text": "on and solve it from first principles",
+    "start": 3809.88,
+    "duration": 5.0
+  },
+  {
+    "text": "not",
+    "start": 3813.48,
+    "duration": 5.799
+  },
+  {
+    "text": "just from principles why is super",
+    "start": 3814.88,
+    "duration": 6.36
+  },
+  {
+    "text": "important",
+    "start": 3819.279,
+    "duration": 5.601
+  },
+  {
+    "text": "here and actually I'm organizing a",
+    "start": 3821.24,
+    "duration": 6.599
+  },
+  {
+    "text": "conference called conference modeling",
+    "start": 3824.88,
+    "duration": 6.439
+  },
+  {
+    "text": "with a of amazing people and this the",
+    "start": 3827.839,
+    "duration": 5.601
+  },
+  {
+    "text": "first ever companies dedicated to",
+    "start": 3831.319,
+    "duration": 6.401
+  },
+  {
+    "text": "langage modeling and welcome to",
+    "start": 3833.44,
+    "duration": 4.28
+  },
+  {
+    "text": "yeah that's it SS",
+    "start": 3837.92,
+    "duration": 3.72
+  }
+]

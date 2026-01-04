@@ -1,0 +1,11 @@
+[
+    {
+        "class_number": 1,
+        "class_title": "LLM Reasoning",
+        "slides": {
+            "1": "intro.pdf",
+            "2": "llm-reasoning.pdf"
+        },
+        "video_url": "https://www.youtube.com/watch?v=QL-FS_Zcmyo"
+    }
+]
